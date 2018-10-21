@@ -1,0 +1,25 @@
+<div class="ui menu solo-desktop navigation-menu">
+  <div class="item logo"></div>
+  <a class="item" [ngClass]="sezione=='who-we-are'?'selected':''" routerLink="/who-we-are">Who We Are</a>
+  <a class="item" [ngClass]="sezione=='service'?'selected':''" routerLink="/service">Service</a>
+  <a class="item" [ngClass]="sezione=='contact'?'selected':''" routerLink="/contact">Contact</a>
+  <a class="item" [ngClass]="sezione=='prenotation'?'selected':''" routerLink="/prenotation">Prenotation</a>
+  <div class="item flagIta"></div>
+  <div class="item flagEng"></div>
+</div>
+
+<div class="ui two item menu solo-device navigation-menu">
+  <div class="item hamburger-menu">
+    <div class="logo"></div>
+    <div><p class="title">Logistic</p></div> 
+  </div>
+  <div class="item">
+    <div class="ui vertical borderless menu navigation-menu">
+      <a class="item" [ngClass]="sezione=='who-we-are'?'selected':''" routerLink="/who-we-are">Who We Are</a>
+      <a class="item" [ngClass]="sezione=='service'?'selected':''" routerLink="/service">Service</a>
+      <a class="item" [ngClass]="sezione=='contact'?'selected':''" routerLink="/contact">Contact</a>
+      <a class="item" [ngClass]="sezione=='prenotation'?'selected':''" routerLink="/prenotation">Prenotation</a>
+      <div class="item flagIta"></div>
+      <div class="item flagEng"></div>
+    </div>
+</div>
