@@ -1,13 +1,16 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { registerLocaleData } from '@angular/common';
 import localeIt from '@angular/common/locales/it';
 import { RouterModule } from '@angular/router';
 import { SuiModule } from 'ng2-semantic-ui';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatAutocompleteModule, MatBottomSheetModule, MatButtonModule, MatButtonToggleModule,  MatCardModule, MatCheckboxModule, MatDialogModule, MatFormFieldModule, MatGridListModule, MatIconModule, MatInputModule, MatListModule, MatMenuModule, MatSelectModule, MatOptionModule, MatPaginatorModule, MatProgressBarModule, MatRadioModule, MatSliderModule, MatTableModule, MatTabsModule, MatToolbarModule} from '@angular/material';
+
+import {TranslateModule, TranslateLoader} from '@ngx-translate/core';
+import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 
 import { DateFormatPipe } from './utils/date-pipe.pipe';
 import Utils from './utils/utils';
@@ -65,7 +68,14 @@ const MaterialModules = [
       { path: 'news', component: NewsComponent },
       { path: '**', component: HomepageComponent }
     ]),
-    
+    HttpClientModule,
+        TranslateModule.forRoot({
+            loader: {
+                provide: TranslateLoader,
+                useFactory: HttpLoaderFactory,
+                deps: [HttpClient]
+            }
+        })
   ],
   exports:[ MaterialModules ],
   providers: [ Utils ],
@@ -73,3 +83,8 @@ const MaterialModules = [
   schemas: [NO_ERRORS_SCHEMA]
 })
 export class AppModule { }
+
+// required for AOT compilation
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http);
+}

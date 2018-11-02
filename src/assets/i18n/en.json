@@ -1,0 +1,22 @@
+{
+    "companyName": "Logistic S.P.A.",
+    "pages": {
+        "who-we-are": "Who We Are",
+        "services": "Services",
+        "our-success": "Our Success",
+        "mission": "Mission",
+        "prenotation": "Prenotation",
+        "contact": "Contact",
+        "administration": "Administration",
+        "cleaning": "Cleaning",
+        "facilityManagement": "Facility Management",
+        "informaticsService": "Informatic Services",
+        "logistic": "Logistic",
+        "otherService": "Other Services",
+        "restaurants": "Restaurants",
+        "rent": "Rent",
+        "bookingLoadingUnloading": "Booking Loading Unloading Goods",
+        "news": "News"
+    }
+    
+}

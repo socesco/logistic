@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {TranslateService} from '@ngx-translate/core';
 import { SuiLocalizationService } from "ng2-semantic-ui";
 import it from "ng2-semantic-ui/locales/it";
 
@@ -9,10 +10,13 @@ import it from "ng2-semantic-ui/locales/it";
 })
 export class AppComponent {
 
-  constructor(public localizationService: SuiLocalizationService) {
+  constructor(public localizationService: SuiLocalizationService, private translate: TranslateService) {
     localizationService.load("it", it);
     localizationService.setLanguage("it");
+    translate.setDefaultLang('it');
   }
-  
-  title = 'logistic';
+
+  useLanguage(language: string) {
+    this.translate.use(language);
+  }
 }
