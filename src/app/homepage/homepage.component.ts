@@ -5,7 +5,7 @@ import { SuiModalService, ModalSize, DatepickerMode } from 'ng2-semantic-ui';
 import Utils from '../utils/utils';
 
 @Component({
-  selector: 'app-homepage',
+  selector: 'homepage',
   templateUrl: './homepage.component.html',
   styleUrls: ['./homepage.component.css']
 })

@@ -1,57 +1,24 @@
-.menu .item.selected {
-    border-bottom: 4px solid white;
+mat-toolbar{
+    background: var( --menu-color);
+    color: var( --white);
+    text-align: center;
+    width: 100%;
 }
 
-.ui.menu {
-    margin-bottom: 10px;
+mat-toolbar mat-toolbar-row{
+    width:1080px;
+    margin: 0 auto;
 }
 
-.ui.menu .item a img {
-    width: 100px;
-}
-
-.navigation-menu {
-    margin-top: 0;
-    border-radius: 0;
-    border: 0;
-    background-color: var( --menu-color) !important;
-}
-
-.navigation-menu a.item {
-    font-size: 14px;
-    font-weight: bold;
-    color: white;
-}
-
-.hamburger-menu {
-    margin: 0 !important;
-    border-radius: 0 !important;
-    background-color: var( --menu-color) !important;
-    display: block !important;
-}
-
-.hamburger-menu img.icon {
-    width: 145px;
-    height: 40px;
-}
-
-.hamburger-menu p.title {
-    font-size: xx-large;
-    font-weight: bold;
-    color: white;
-}
-
-.ui.menu.navigation-menu .logo {
-    width: 50px;
+mat-toolbar mat-toolbar-row button img.logo{
     height: 50px;
-    margin: 5px 10px;
-    border-radius: 0;
-    background: var( --menu-color) url('../../assets/img/logo.png') no-repeat;
-    background-size: contain;
 }
 
-.ui.menu.navigation-menu .item.hamburger-menu .logo {
-    width: 70px;
-    height: 70px;
-    margin: auto;
+mat-toolbar mat-toolbar-row button img.flag{
+    width: 50px;
+    height: 25px;
+}
+
+.selected{
+    border-bottom: solid 2px var( --white);
 }

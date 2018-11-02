@@ -1,0 +1,17 @@
+footer{
+    background: var( --menu-color);
+    color: var( --white);
+    text-align: center;
+    width: 100%;
+    bottom: 0px;
+    padding: 0px 50px;
+}
+
+footer a{
+    color: var( --white);
+}
+
+hr{
+    color: var( --white);
+    border: 1px solid var( --white);
+}

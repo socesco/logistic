@@ -1,6 +1,74 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
 body{
     margin: 0px;
     padding: 0px;
     text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+/* Colori */
+
+:root {
+    --menu-color: #043e5a;
+    --main-bg-color: #e6e6e6;
+    --red: #db2828;
+    --orange: #f2711c;
+    --green: #1ebc30;
+    --blue: #2185d0;
+    --purple: #a333c8;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+.red {
+    color: var(--red);
+}
+
+.green {
+    color: var(--green);
+}
+
+.orange {
+    color: var(--orange);
+}
+
+.blue {
+    color: var(--blue);
+}
+
+.purple {
+    color: var(--purple);
+}
+
+@media only screen and (max-width: 990px) {
+    .desktop {
+        display: none !important;
+    }
+    .mobile{
+        display: block !important;
+    }
+}
+
+@media only screen and (min-width: 991px) {
+    .mobile{
+        display: none !important;
+    }
+    .desktop {
+        display: block !important;
+    }
+}
+
+html, body { height: 100%; }
+body {
+    background-color: var(--main-bg-color); 
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
+}
+.clear{
+    clear:both;
+}
+.pointer {
+    cursor: pointer;
 }

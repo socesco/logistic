@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ServicesComponent implements OnInit {
 
-  sezione: string = "service";
+  sezione: string = "services";
 
   constructor() { }
 

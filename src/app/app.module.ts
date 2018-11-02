@@ -6,12 +6,14 @@ import { registerLocaleData } from '@angular/common';
 import localeIt from '@angular/common/locales/it';
 import { RouterModule } from '@angular/router';
 import { SuiModule } from 'ng2-semantic-ui';
-import { HttpClient } from 'selenium-webdriver/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatAutocompleteModule, MatBottomSheetModule, MatButtonModule, MatButtonToggleModule,  MatCardModule, MatCheckboxModule, MatDialogModule, MatFormFieldModule, MatGridListModule, MatIconModule, MatInputModule, MatListModule, MatMenuModule, MatSelectModule, MatOptionModule, MatPaginatorModule, MatProgressBarModule, MatRadioModule, MatSliderModule, MatTableModule, MatTabsModule, MatToolbarModule} from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { WhoWeAreComponent } from './who-we-are/who-we-are.component';
 import { ContactComponent } from './contact/contact.component';
+import { MissionComponent } from './mission/mission.component';
+import { OurSuccessComponent } from './our-success/our-success.component';
 import { ServicesComponent } from './services/services.component';
 import { PrenotationComponent } from './prenotation/prenotation.component';
 import { FooterComponent } from './footer/footer.component';
@@ -33,6 +35,8 @@ const MaterialModules = [
     AppComponent,
     WhoWeAreComponent,
     ContactComponent,
+    MissionComponent,
+    OurSuccessComponent,
     ServicesComponent,
     PrenotationComponent,
     FooterComponent,
@@ -47,11 +51,14 @@ const MaterialModules = [
     FormsModule,
     ReactiveFormsModule,
     MaterialModules,
+    BrowserAnimationsModule,
     RouterModule.forRoot([
       { path: '', redirectTo: 'home', pathMatch: 'full' },
       { path: 'home', component: HomepageComponent },
       { path: 'who-we-are', component: WhoWeAreComponent },
-      { path: 'service', component: ServicesComponent },
+      { path: 'mission', component: MissionComponent },
+      { path: 'our-success', component: OurSuccessComponent },
+      { path: 'services', component: ServicesComponent },
       { path: 'contact', component: ContactComponent },
       { path: 'prenotation', component: PrenotationComponent },
       { path: '**', component: HomepageComponent }
