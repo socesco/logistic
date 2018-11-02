@@ -9,6 +9,9 @@ import { SuiModule } from 'ng2-semantic-ui';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatAutocompleteModule, MatBottomSheetModule, MatButtonModule, MatButtonToggleModule,  MatCardModule, MatCheckboxModule, MatDialogModule, MatFormFieldModule, MatGridListModule, MatIconModule, MatInputModule, MatListModule, MatMenuModule, MatSelectModule, MatOptionModule, MatPaginatorModule, MatProgressBarModule, MatRadioModule, MatSliderModule, MatTableModule, MatTabsModule, MatToolbarModule} from '@angular/material';
 
+import { DateFormatPipe } from './utils/date-pipe.pipe';
+import Utils from './utils/utils';
+
 import { AppComponent } from './app.component';
 import { WhoWeAreComponent } from './who-we-are/who-we-are.component';
 import { ContactComponent } from './contact/contact.component';
@@ -19,10 +22,7 @@ import { PrenotationComponent } from './prenotation/prenotation.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { NavigationComponent } from './navigation/navigation.component';
-
-
-import { DateFormatPipe } from './utils/date-pipe.pipe';
-import Utils from './utils/utils';
+import { NewsComponent } from './news/news.component';
 
 registerLocaleData(localeIt);
 
@@ -42,6 +42,7 @@ const MaterialModules = [
     FooterComponent,
     HomepageComponent,
     NavigationComponent,
+    NewsComponent,
     DateFormatPipe,
   ],
   imports: [
@@ -61,6 +62,7 @@ const MaterialModules = [
       { path: 'services', component: ServicesComponent },
       { path: 'contact', component: ContactComponent },
       { path: 'prenotation', component: PrenotationComponent },
+      { path: 'news', component: NewsComponent },
       { path: '**', component: HomepageComponent }
     ]),
     
