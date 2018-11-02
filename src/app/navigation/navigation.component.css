@@ -3,11 +3,16 @@ mat-toolbar{
     color: var( --white);
     text-align: center;
     width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
 }
 
 mat-toolbar mat-toolbar-row{
-    width:1080px;
+    width: 1080px;
     margin: 0 auto;
+    display: inline-block;
 }
 
 mat-toolbar mat-toolbar-row button img.logo{

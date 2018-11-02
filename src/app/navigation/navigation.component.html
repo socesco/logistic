@@ -6,8 +6,8 @@
     <button mat-button [matMenuTriggerFor]="SubServices" [ngClass]="sezione=='services'?'selected':''" routerLink="/services">Services</button>
     <button mat-button [ngClass]="sezione=='our-success'?'selected':''" routerLink="/our-success">Our Success</button>
     <button mat-button [ngClass]="sezione=='mission'?'selected':''" routerLink="/mission">Mission</button>
-    <button mat-button [ngClass]="sezione=='contact'?'selected':''" routerLink="/contact">Contact</button>
     <button mat-button [ngClass]="sezione=='prenotation'?'selected':''" routerLink="/prenotation">Prenotation</button>
+    <button mat-button [ngClass]="sezione=='contact'?'selected':''" routerLink="/contact">Contact</button>
     <button mat-button ><img mat-card-sm-image src="../../assets/img/flags/flagIta.png" class="flag" alt="Ita"></button>
     <button mat-button ><img mat-card-sm-image src="../../assets/img/flags/flagEng.png" class="flag" alt="Eng"></button>
   </mat-toolbar-row>
@@ -32,8 +32,8 @@
   <mat-sidenav><a class="item" [ngClass]="sezione=='services'?'selected':''" routerLink="/services">Services</a></mat-sidenav>
   <mat-sidenav><a class="item" [ngClass]="sezione=='our-success'?'selected':''" routerLink="/our-success">Ours Success</a></mat-sidenav>
   <mat-sidenav><a class="item" [ngClass]="sezione=='mission'?'selected':''" routerLink="/mission">Mission</a></mat-sidenav>
+  <mat-sidenav><a class="item" [ngClass]="sezione=='prenotation'?'selected':''" routerLink="/prenotation">Prenotation</a></mat-sidenav>  
   <mat-sidenav><a class="item" [ngClass]="sezione=='contact'?'selected':''" routerLink="/contact">Contact</a></mat-sidenav>
-  <mat-sidenav><a class="item" [ngClass]="sezione=='prenotation'?'selected':''" routerLink="/prenotation">Prenotation</a></mat-sidenav>
   <mat-sidenav><img mat-card-sm-image src="../../assets/img/flags/flagIta.png" class="flag" alt="Ita"></mat-sidenav>
   <mat-sidenav position="end"><img mat-card-sm-image src="../../assets/img/flags/flagEng.png" class="flag" alt="Eng"></mat-sidenav>
 </mat-sidenav-container>
