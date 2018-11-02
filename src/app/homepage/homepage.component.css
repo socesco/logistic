@@ -22,3 +22,104 @@ mat-card{
     margin: 10px;
     display: inline-block;
 }
+
+
+section {
+    /* Background image styling */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* Reset stacking context */
+    isolation: isolate;
+    
+    /* Must be set to correctly position .wrapper below */
+    position: relative;
+    
+    /* Height not required. Can be left as auto */
+    height: 100vh;
+    padding: 1em;
+  }
+  
+  .wrapper {
+    /* Hides box (&:before) outside of section */
+    clip: rect(auto auto auto auto);
+    
+    /* Clip works only on positions absolute or fixed */
+    position: absolute; 
+    /* Stretch to fill entire section */
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+  }
+
+  .wrapper:before {
+    content: " ";
+    
+    /* Basic styling */
+    padding: 2em 3.5em;
+    
+    /* Blend with background */
+    mix-blend-mode: darken;
+
+  }
+  
+  
+
+.wide-banner {
+    width: 100%;
+    float: left;
+    margin: 0px 0;
+    display: block;
+    height: 450px;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.wide-banner .wide-banner-elements {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-position: center bottom;
+}
+
+.bg1-desktop {
+    background: url("../../assets/img/magazzino3.jpg") no-repeat center fixed;
+}
+
+.bg2-desktop {
+    background: url("../../assets/img/magazzino2.jpg") no-repeat center fixed;
+}
+
+.centrato {
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: block;
+}
+
+.text-banner h3 {
+    color: white;
+    text-shadow: 1px 1px 15px rgba(0,0,0,0.61);
+    font-size: 50px;
+    text-align: left;
+    font-weight: 700;
+    margin: 80px 0 10px 0;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.text-banner p {
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    text-shadow: 1px 1px 2px black;
+    font-weight: 700;
+    font-style: italic;
+}
+
+

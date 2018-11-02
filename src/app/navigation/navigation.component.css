@@ -20,8 +20,8 @@ mat-toolbar mat-toolbar-row button img.logo{
 }
 
 mat-toolbar mat-toolbar-row button img.flag{
-    width: 50px;
-    height: 25px;
+    width: 25px;
+    height: 12px;
 }
 
 .selected{

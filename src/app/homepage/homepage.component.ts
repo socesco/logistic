@@ -18,4 +18,8 @@ export class HomepageComponent implements OnInit {
   ngOnInit() {
   }
 
+  arrayOne(n: number): any[] {
+    return Array(n);
+  }
+
 }
