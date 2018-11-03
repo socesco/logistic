@@ -1,7 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import {TranslateService} from '@ngx-translate/core';
-import { SuiLocalizationService } from "ng2-semantic-ui";
-import it from "ng2-semantic-ui/locales/it";
 
 @Component({
   selector: 'app-root',
@@ -10,9 +8,7 @@ import it from "ng2-semantic-ui/locales/it";
 })
 export class AppComponent {
 
-  constructor(public localizationService: SuiLocalizationService, private translate: TranslateService) {
-    localizationService.load("it", it);
-    localizationService.setLanguage("it");
+  constructor(private translate: TranslateService) {
     translate.setDefaultLang('it');
   }
 

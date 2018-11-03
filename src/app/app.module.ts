@@ -5,9 +5,9 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { registerLocaleData } from '@angular/common';
 import localeIt from '@angular/common/locales/it';
 import { RouterModule } from '@angular/router';
-import { SuiModule } from 'ng2-semantic-ui';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatAutocompleteModule, MatBottomSheetModule, MatButtonModule, MatButtonToggleModule,  MatCardModule, MatCheckboxModule, MatDialogModule, MatFormFieldModule, MatGridListModule, MatIconModule, MatInputModule, MatListModule, MatMenuModule, MatSelectModule, MatOptionModule, MatPaginatorModule, MatProgressBarModule, MatRadioModule, MatSliderModule, MatTableModule, MatTabsModule, MatToolbarModule} from '@angular/material';
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 import {TranslateModule, TranslateLoader} from '@ngx-translate/core';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
@@ -51,11 +51,11 @@ const MaterialModules = [
   imports: [
     HttpClientModule,
     BrowserModule,
-    SuiModule,
     FormsModule,
     ReactiveFormsModule,
     MaterialModules,
     BrowserAnimationsModule,
+    MDBBootstrapModule.forRoot(),
     RouterModule.forRoot([
       { path: '', redirectTo: 'home', pathMatch: 'full' },
       { path: 'home', component: HomepageComponent },
@@ -69,13 +69,13 @@ const MaterialModules = [
       { path: '**', component: HomepageComponent }
     ]),
     HttpClientModule,
-        TranslateModule.forRoot({
-            loader: {
-                provide: TranslateLoader,
-                useFactory: HttpLoaderFactory,
-                deps: [HttpClient]
-            }
-        })
+    TranslateModule.forRoot({
+        loader: {
+            provide: TranslateLoader,
+            useFactory: HttpLoaderFactory,
+            deps: [HttpClient]
+        }
+    })
   ],
   exports:[ MaterialModules ],
   providers: [ Utils ],

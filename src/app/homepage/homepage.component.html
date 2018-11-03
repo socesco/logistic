@@ -1,6 +1,49 @@
 <app-navigation [sezione]="sezione"></app-navigation>
-<div class="container">
 
+<!--Carousel Wrapper-->
+<mdb-carousel [isControls]="true" class="carousel slide carousel-fade" [animation]="'fade'">
+    <!--First slide-->
+    <mdb-carousel-item>
+        <div class="view w-100">
+            <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg" alt="First slide">
+            <div class="mask rgba-black-light waves-light" mdbWavesEffect></div>
+        </div>
+        <div class="carousel-caption">
+            <h3 class="h3-responsive">Light mask</h3>
+            <p>First text</p>
+        </div>
+    </mdb-carousel-item>
+    <!--/First slide-->
+    <!--Second slide-->
+    <mdb-carousel-item>
+        <div class="view w-100">
+            <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg" alt="Second slide">
+            <div class="mask rgba-black-strong waves-light" mdbWavesEffect></div>
+        </div>
+        <div class="carousel-caption">
+            <h3 class="h3-responsive">Strong mask</h3>
+            <p>Secondary text</p>
+        </div>
+    </mdb-carousel-item>
+    <!--/Second slide-->
+    <!--Third slide-->
+    <mdb-carousel-item>
+        <div class="view w-100">
+            <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg" alt="Third slide">
+            <div class="mask rgba-black-slight waves-light" mdbWavesEffect></div>
+        </div>
+        <div class="carousel-caption">
+            <h3 class="h3-responsive">Slight mask</h3>
+            <p>Third text</p>
+        </div>
+    </mdb-carousel-item>
+    <!--/Third slide-->
+</mdb-carousel>
+<!--/.Carousel Wrapper-->
+
+
+<div class="container">
+    
     <mat-card class="example-card" *ngFor="let item of arrayOne(6); let i = index;">
         <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
         <mat-card-content>
@@ -15,12 +58,7 @@
 </div>
 
 <section class="bg1-desktop">
-    <div class="wrapper"></div>
-</section>
-
-<!--
-<div class="wide-banner bg1-desktop">
-    <div class="wide-banner-elements bg1-desktop">
+    <div class="wrapper">
         <div class="centrato">
             <div class="text-banner">
                 <h3>La soluzione migliore.<br>Pensata per voi.</h3>
@@ -29,8 +67,7 @@
             </div>
         </div>
     </div>
-</div>
--->
+</section>
 
 
 <div class="container">
@@ -47,11 +84,7 @@
 </div>
 
 <section class="bg2-desktop">
-    <div class="wrapper"></div>
-</section>
-<!--
-<div class="wide-banner bg2-desktop">
-    <div class="wide-banner-elements bg2-desktop">
+    <div class="wrapper">
         <div class="centrato">
             <div class="text-banner">
                 <h3>La soluzione migliore.<br>Pensata per voi.</h3>
@@ -60,8 +93,8 @@
             </div>
         </div>
     </div>
-</div>
--->
+</section>
+
 <div class="container">
         <mat-card class="example-card" *ngFor="let item of arrayOne(9); let i = index;">
             <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
