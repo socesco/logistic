@@ -1,29 +1,18 @@
-mat-toolbar{
-    background: var( --menu-color);
+.navigation{
+    background: var(--menu-color);
     color: var( --white);
     text-align: center;
     width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 100;
+}
+nav{
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
-mat-toolbar mat-toolbar-row{
-    width: 1080px;
-    margin: 0 auto;
-    display: inline-block;
-}
-
-mat-toolbar mat-toolbar-row button img.logo{
-    height: 50px;
-}
-
-mat-toolbar mat-toolbar-row button img.flag{
+nav.navbar ul.navbar-nav li a img.flag{
     width: 25px;
     height: 12px;
 }
 
-.selected{
-    border-bottom: solid 2px var( --white);
-}

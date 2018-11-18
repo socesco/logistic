@@ -1,51 +1,65 @@
+<div class="navigation">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-unique">
+      <a class="navbar-brand" href="#" routerLink="/home">
+        <img src="../../assets/img/logo.png" height="30" alt="{{ 'pages.companyName' | translate }}">
+      </a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-6" aria-controls="navbarSupportedContent-6" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse" id="navbarSupportedContent-6">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item" [ngClass]="sezione=='who-we-are'?'active':''">
+              <a class="nav-link waves-effect waves-light" href="#" routerLink="/who-we-are">{{ 'pages.who-we-are' | translate}}</a>
+            </li>
+            <li class="nav-item" [ngClass]="sezione=='services'?'active':''">
+              <a class="nav-link waves-effect waves-light" href="#" routerLink="/services">{{ 'pages.services' | translate }}</a>
+            </li>
+            <li class="nav-item" [ngClass]="sezione=='our-success'?'active':''">
+              <a class="nav-link waves-effect waves-light" href="#" routerLink="/our-success">{{ 'pages.our-success' | translate }}</a>
+            </li>
+            <li class="nav-item" [ngClass]="sezione=='mission'?'active':''">
+              <a class="nav-link waves-effect waves-light" href="#" routerLink="/mission">{{ 'pages.mission' | translate }}</a>
+            </li>
+            <li class="nav-item" [ngClass]="sezione=='prenotation'?'active':''">
+              <a class="nav-link waves-effect waves-light" href="#" routerLink="/prenotation">{{ 'pages.prenotation' | translate }}</a>
+            </li>
+            <li class="nav-item" [ngClass]="sezione=='contact'?'active':''">
+              <a class="nav-link waves-effect waves-light" href="#" routerLink="/contact">{{ 'pages.contact' | translate }}</a>
+            </li>
+          </ul>
+          
+          <ul class="navbar-nav">
+            <li class="nav-item" (click)="useLanguage('it')">
+                <a class="nav-link waves-effect waves-light pointer">
+                  <img src="../../assets/img/flags/flagIta.png" class="flag" alt="Ita">
+                </a>
+              </li>
+              <li class="nav-item" (click)="useLanguage('en')">
+                <a class="nav-link waves-effect waves-light pointer">
+                  <img src="../../assets/img/flags/flagEng.png" class="flag" alt="Eng">
+                </a>
+              </li>
+          </ul>
+      </div>
+    </nav>
+  </div>
+</div>
 
-<mat-toolbar class="desktop">  
-  <mat-toolbar-row>
-    <button mat-button routerLink="/home"><img mat-card-sm-image src="../../assets/img/logo.png" class="logo" alt="{{ 'pages.companyName' | translate }}"></button>
-    <button mat-button [ngClass]="sezione=='who-we-are'?'selected':''" routerLink="/who-we-are">{{ 'pages.who-we-are' | translate}}</button>
-    <button mat-button [matMenuTriggerFor]="SubServices" [ngClass]="sezione=='services'?'selected':''" routerLink="/services">{{ 'pages.services' | translate }}</button>
-    <button mat-button [ngClass]="sezione=='our-success'?'selected':''" routerLink="/our-success">{{ 'pages.our-success' | translate }}</button>
-    <button mat-button [ngClass]="sezione=='mission'?'selected':''" routerLink="/mission">{{ 'pages.mission' | translate }}</button>
-    <button mat-button [ngClass]="sezione=='prenotation'?'selected':''" routerLink="/prenotation">{{ 'pages.prenotation' | translate }}</button>
-    <button mat-button [ngClass]="sezione=='contact'?'selected':''" routerLink="/contact">{{ 'pages.contact' | translate }}</button>
-    <button mat-button (click)="useLanguage('it')"><img mat-card-sm-image src="../../assets/img/flags/flagIta.png" class="flag" alt="Ita"></button>
-    <button mat-button (click)="useLanguage('en')"><img mat-card-sm-image src="../../assets/img/flags/flagEng.png" class="flag" alt="Eng"></button>
-  </mat-toolbar-row>
-</mat-toolbar>
-
-<mat-menu #SubServices="matMenu">
-  <button mat-menu-item routerLink="/services/logistic">{{ 'pages.logistic' | translate }}</button>
-  <button mat-menu-item routerLink="/services/administration">{{ 'pages.administration' | translate }}</button>
-  <button mat-menu-item routerLink="/services/cleaning">{{ 'pages.cleaning' | translate }}</button>
-  <button mat-menu-item routerLink="/services/facilityManagement">{{ 'pages.facilityManagement' | translate }}</button>
-  <button mat-menu-item routerLink="/services/informaticsService">{{ 'pages.informaticsService' | translate }}</button>
-  <button mat-menu-item routerLink="/services/otherService">{{ 'pages.otherServices' | translate }}</button>
-  <button mat-menu-item routerLink="/services/restaurants">{{ 'pages.restaurants' | translate }}</button>
-  <button mat-menu-item routerLink="/services/rent">{{ 'pages.rent' | translate }}</button>
-  <button mat-menu-item routerLink="/services/bookingLoadingUnloading">{{ 'pages.bookingLoadingUnloading' | translate }}</button>
-</mat-menu>
-
-<mat-sidenav-container class="mobile">
-  <mat-sidenav><a routerLink="/home"><img mat-card-sm-image src="../../assets/img/logo.png" class="logo" alt="{{ 'pages.companyName' | translate }}"></a></mat-sidenav>
-  <mat-sidenav><p class="title">{{ 'pages.companyName' | translate }}</p></mat-sidenav>
-  <mat-sidenav><a class="item" [ngClass]="sezione=='who-we-are'?'selected':''" routerLink="/who-we-are">{{ 'pages.who-we-are' | translate }}</a></mat-sidenav>
-  <mat-sidenav><a class="item" [ngClass]="sezione=='services'?'selected':''" routerLink="/services">{{ 'pages.services' | translate }}</a></mat-sidenav>
-  <mat-sidenav><a class="item" [ngClass]="sezione=='our-success'?'selected':''" routerLink="/our-success">{{ 'pages.our-success' | translate }}</a></mat-sidenav>
-  <mat-sidenav><a class="item" [ngClass]="sezione=='mission'?'selected':''" routerLink="/mission">{{ 'pages.mission' | translate }}</a></mat-sidenav>
-  <mat-sidenav><a class="item" [ngClass]="sezione=='prenotation'?'selected':''" routerLink="/prenotation">{{ 'pages.prenotation' | translate }}</a></mat-sidenav>  
-  <mat-sidenav><a class="item" [ngClass]="sezione=='contact'?'selected':''" routerLink="/contact">{{ 'pages.contact' | translate }}</a></mat-sidenav>
-  <mat-sidenav (click)="useLanguage('it')"><img mat-card-sm-image src="../../assets/img/flags/flagIta.png" class="flag" alt="Ita"></mat-sidenav>
-  <mat-sidenav position="end" (click)="useLanguage('en')"><img mat-card-sm-image src="../../assets/img/flags/flagEng.png" class="flag" alt="Eng"></mat-sidenav>
-</mat-sidenav-container>
 
 
 
-<!--
-<mat-nav-list>
-    <a mat-list-item routerLinkActive="active" routerLink="/home"><img mat-card-sm-image src="../../assets/img/logo.png" class="logo" alt="Logistic"></a>
-    <a mat-list-item routerLinkActive="active">{{link.title}}</a>
-    <a mat-list-item routerLinkActive="active">{{link.title}}</a>
-    <a mat-list-item routerLinkActive="active">{{link.title}}</a>
-    <a mat-list-item routerLinkActive="active">{{link.title}}</a>
-</mat-nav-list>
--->
+          <!--
+            <div class="dropdown-menu dropdown dropdown-primary" role="menu">
+              <a class="dropdown-item waves-effect waves-light" href="#" routerLink="/services/logistic">{{ 'pages.logistic' | translate }}</a>
+              <a class="dropdown-item waves-effect waves-light" href="#" routerLink="/services/administration">{{ 'pages.administration' | translate }}</a>
+              <a class="dropdown-item waves-effect waves-light" href="#" routerLink="/services/cleaning">{{ 'pages.cleaning' | translate }}</a>
+              <a class="dropdown-item waves-effect waves-light" href="#" routerLink="/services/facilityManagement">{{ 'pages.facilityManagement' | translate }}</a>
+              <a class="dropdown-item waves-effect waves-light" href="#" routerLink="/services/informaticsService">{{ 'pages.informaticsService' | translate }}</a>
+              <a class="dropdown-item waves-effect waves-light" href="#" routerLink="/services/otherService">{{ 'pages.otherServices' | translate }}</a>
+              <a class="dropdown-item waves-effect waves-light" href="#" routerLink="/services/restaurants">{{ 'pages.restaurants' | translate }}</a>
+              <a class="dropdown-item waves-effect waves-light" href="#" routerLink="/services/rent">{{ 'pages.rent' | translate }}</a>
+              <a class="dropdown-item waves-effect waves-light" href="#" routerLink="/services/bookingLoadingUnloading">{{ 'pages.bookingLoadingUnloading' | translate }}</a>
+            </div>
+          -->
+        

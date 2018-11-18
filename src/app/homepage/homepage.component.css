@@ -18,5 +18,100 @@ mat-card{
     opacity: 0.7;
 }
 
+.grid-content-type1{
+    display: grid;
+    margin-bottom: 20px; 
+    grid-template-columns: repeat(36, 1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+        "c c c c c c c c c c c c c c c c n1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1" 
+        "c c c c c c c c c c c c c c c c n1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1"
+        "c c c c c c c c c c c c c c c c n1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1"
+        "c c c c c c c c c c c c c c c c n2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2" 
+        "c c c c c c c c c c c c c c c c n2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2"
+        "c c c c c c c c c c c c c c c c n2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2" 
+        "c c c c c c c c c c c c c c c c n3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3" 
+        "c c c c c c c c c c c c c c c c n3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3"
+        "c c c c c c c c c c c c c c c c n3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3";   
+}
 
+.grid-title1{
+    grid-area: t1;
+}
 
+.grid-text1{
+    grid-area: k1;
+
+}
+
+.grid-title2{
+    grid-area: t2;
+}
+
+.grid-text2{
+    grid-area: k2;
+
+}
+
+.grid-title3{
+    grid-area: t3;
+}
+
+.grid-text3{
+    grid-area: k3;
+
+}
+
+.grid-img{
+    grid-area: c;
+    background: url("../../assets/img/hp_about_man.png") no-repeat top;
+    background-size: contain;
+}
+
+@media only screen and (max-width: 990px) {
+
+    .grid-number1{
+        grid-area: n1;
+        font-size: 20px;
+        font-weight: bolder;
+        color: var( --orange);
+    }
+
+    .grid-number2{
+        grid-area: n2;
+        font-size: 20px;
+        font-weight: bolder;
+        color: var( --orange);
+    }
+
+    .grid-number3{
+        grid-area: n3;
+        font-size: 20px;
+        font-weight: bolder;
+        color: var( --orange);
+    }
+}
+
+@media only screen and (min-width: 991px) {
+
+    .grid-number1{
+        grid-area: n1;
+        font-size: 40px;
+        font-weight: bolder;
+        color: var( --orange);
+    }
+    
+    .grid-number2{
+        grid-area: n2;
+        font-size: 40px;
+        font-weight: bolder;
+        color: var( --orange);
+    }
+
+    .grid-number3{
+        grid-area: n3;
+        font-size: 40px;
+        font-weight: bolder;
+        color: var( --orange);
+    }
+}

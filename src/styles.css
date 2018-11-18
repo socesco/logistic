@@ -22,44 +22,6 @@ body{
     --black: #000000;
 }
 
-.red {
-    color: var(--red);
-}
-
-.green {
-    color: var(--green);
-}
-
-.orange {
-    color: var(--orange);
-}
-
-.blue {
-    color: var(--blue);
-}
-
-.purple {
-    color: var(--purple);
-}
-
-@media only screen and (max-width: 990px) {
-    .desktop {
-        display: none !important;
-    }
-    .mobile{
-        display: block !important;
-    }
-}
-
-@media only screen and (min-width: 991px) {
-    .mobile{
-        display: none !important;
-    }
-    .desktop {
-        display: block !important;
-    }
-}
-
 html, body { height: 100%; }
 body {
     background-color: var(--main-bg-color); 
@@ -81,7 +43,10 @@ body {
 .capitalize{
     text-transform: capitalize;
 }
-.container {
+.container{
+    width: 100%;
+}
+.container.start {
     margin: 70px auto 50px auto;
 }
 
@@ -102,7 +67,7 @@ section {
     /* Must be set to correctly position .wrapper below */
     position: relative;
     /* Height not required. Can be left as auto */
-    height: 450px;
+    min-height: 450px;
     padding: 1em;
   }
   
@@ -142,11 +107,26 @@ section {
     font-style: italic;
 }
 
-.text-banner h3 {
-    font-size: 50px;
-    margin: 50px 0 10px 0;
+
+
+@media only screen and (max-width: 990px) {
+    .text-banner h3 {
+        font-size: 28px;
+        margin: 20px 0 10px 0;
+    }
+
+    .text-banner p {
+        font-size: 14px;
+    }
 }
 
-.text-banner p {
-    font-size: 18px;
+@media only screen and (min-width: 991px) {
+    .text-banner h3 {
+        font-size: 50px;
+        margin: 20px 0 10px 0;
+    }
+
+    .text-banner p {
+        font-size: 18px;
+    }
 }
