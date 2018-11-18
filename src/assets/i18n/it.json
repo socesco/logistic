@@ -16,6 +16,38 @@
         "rent": "Noleggio",
         "bookingLoadingUnloading": "Prenotazione carico scarico",
         "news": "Novità"
+    },
+    "homepage":{
+        "carosel":{
+            "title1": "International Logistic Services",
+            "text1": "FIANCO A FIANCO",
+            "img1": "https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg",
+            "title2": "Img 2",
+            "text2": "Text Img 2",
+            "img2": "https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg",
+            "title3": "Img 3",
+            "text3": "Text Img 3",
+            "img3": "https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg"
+        },
+        "title1": "I nostri servizi, al tuo servizio.",
+        "text1": "QUI SOTTO QUELLO CHE SAPPIAMO FARE MEGLIO.",
+        "banner1":{
+            "title": "Vi trasportiamo dritti all’obiettivo.",
+            "text": "IL NOSTRO METODO VI PORTERÀ LONTANO.",
+            "subtitle1":"I PROCESSI",
+            "subtext1":"Rendendoli più flessibili e trovando il modo migliore per raggiungere l’obiettivo, senza extra, in termini di tempo impiegato, attività e quindi costi.",
+            "subtitle2":"CONTENIAMO I COSTI",
+            "subtext2":"Tutte le nostre risorse, sia quelle operative che quelle di controllo, sono specificatamente formate e specializzate.",
+            "subtitle3":"GUARDIAMO AL PROFITTO",
+            "subtext3":"Ottimizzare e migliorare i processi significa non sprecare risorse e migliorare la produttività."
+        },
+        "banner2":{
+            "title1": "La soluzione migliore.",
+            "title2": "Pensata per voi.",
+            "text1": "LAVORIAMO AL VOSTRO FIANCO PER AIUTARVI A MANTENERE E INCREMENTARE LA VOSTRA COMPETITIVITÀ, ALL’INTERNO DI UN MERCATO GLOBALE SEMPRE PIÙ COMPLESSO.",
+            "text2": "Che si tratti di logistica, logistica integrata, facility management, ristorazione o pulizie, per noi il punto di partenza è sempre lo stesso: voi. Basiamo il successo e l’efficienza sulla reale partnership con il nostro Cliente, che accompagniamo fino a destinazione con soluzioni innovative e completamente tailored, in grado di inserirsi in modo naturale all’interno di un ecosistema già esistente."
+        }
     }
+
 
 }

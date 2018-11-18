@@ -22,17 +22,7 @@ mat-card{
     display: grid;
     margin-bottom: 20px; 
     grid-template-columns: repeat(36, 1fr);
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: 
-        "c c c c c c c c c c c c c c c c n1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1" 
-        "c c c c c c c c c c c c c c c c n1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1"
-        "c c c c c c c c c c c c c c c c n1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1"
-        "c c c c c c c c c c c c c c c c n2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2" 
-        "c c c c c c c c c c c c c c c c n2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2"
-        "c c c c c c c c c c c c c c c c n2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2" 
-        "c c c c c c c c c c c c c c c c n3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3" 
-        "c c c c c c c c c c c c c c c c n3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3"
-        "c c c c c c c c c c c c c c c c n3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3";   
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;  
 }
 
 .grid-title1{
@@ -62,37 +52,94 @@ mat-card{
 
 }
 
-.grid-img{
-    grid-area: c;
-    background: url("../../assets/img/hp_about_man.png") no-repeat top;
-    background-size: contain;
-}
-
 @media only screen and (max-width: 990px) {
+    
+    .grid-content-type1{
+        grid-template-areas: 
+        "n1 n1 n1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1" 
+        "n1 n1 n1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1"
+        "n1 n1 n1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1"
+        "n2 n2 n2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2" 
+        "n2 n2 n2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2"
+        "n2 n2 n2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2" 
+        "n3 n3 n3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3" 
+        "n3 n3 n3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3"
+        "n3 n3 n3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3"; 
+    }
 
     .grid-number1{
         grid-area: n1;
-        font-size: 20px;
+        font-size: 40px;
         font-weight: bolder;
         color: var( --orange);
     }
 
     .grid-number2{
         grid-area: n2;
-        font-size: 20px;
+        font-size: 40px;
         font-weight: bolder;
         color: var( --orange);
     }
 
     .grid-number3{
         grid-area: n3;
-        font-size: 20px;
+        font-size: 40px;
         font-weight: bolder;
         color: var( --orange);
     }
+
+    .wrapper .centrato .text-banner h3{
+        font-size: 22px;
+        margin: 10px 0px;
+    }
+
+    .wrapper .centrato .text-banner p{
+        font-size: 14px;
+    }
+
+    .grid-title1{
+        font-size: 14px;
+    }
+    
+    .grid-text1{
+        font-size: 14px;
+    
+    }
+    
+    .grid-title2{
+        font-size: 14px;
+    }
+    
+    .grid-text2{
+        font-size: 14px;
+    
+    }
+    
+    .grid-title3{
+        font-size: 14px;
+    }
+    
+    .grid-text3{
+        font-size: 14px;
+    
+    }
+    
 }
 
 @media only screen and (min-width: 991px) {
+    
+    .grid-content-type1{
+        grid-template-areas: 
+        "c c c c c c c c c c c c c c c c n1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1 t1" 
+        "c c c c c c c c c c c c c c c c n1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1"
+        "c c c c c c c c c c c c c c c c n1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1 k1"
+        "c c c c c c c c c c c c c c c c n2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2" 
+        "c c c c c c c c c c c c c c c c n2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2"
+        "c c c c c c c c c c c c c c c c n2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2 k2" 
+        "c c c c c c c c c c c c c c c c n3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3 t3" 
+        "c c c c c c c c c c c c c c c c n3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3"
+        "c c c c c c c c c c c c c c c c n3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3 k3"; 
+    }
 
     .grid-number1{
         grid-area: n1;
@@ -113,5 +160,11 @@ mat-card{
         font-size: 40px;
         font-weight: bolder;
         color: var( --orange);
+    }
+
+    .grid-img{
+        grid-area: c;
+        background: url("../../assets/img/hp_about_man.png") no-repeat top;
+        background-size: contain;
     }
 }

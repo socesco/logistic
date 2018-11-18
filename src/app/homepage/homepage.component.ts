@@ -11,6 +11,7 @@ import Utils from '../utils/utils';
 export class HomepageComponent implements OnInit {
 
   sezione: string = "home";
+  carousel: Array<Object> = [];
 
   constructor(private route: ActivatedRoute, private router: Router) { }
 
@@ -20,5 +21,5 @@ export class HomepageComponent implements OnInit {
   arrayOne(n: number): any[] {
     return Array(n);
   }
-
+  
 }

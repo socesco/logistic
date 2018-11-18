@@ -17,6 +17,37 @@
         "rent": "Rent",
         "bookingLoadingUnloading": "Booking Loading Unloading Goods",
         "news": "News"
+    }, 
+    "homepage":{
+        "carosel":{
+            "title1": "International Logistic Services",
+            "text1": "SIDE BY SIDE",
+            "img1": "https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg",
+            "title2": "Img 2",
+            "text2": "Text Img 2",
+            "img2": "https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg",
+            "title3": "Img 3",
+            "text3": "Text Img 3",
+            "img3": "https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg"
+        },
+        "title1": "Ours services, at your service.",
+        "text1": "HERE WHAT WE DO BETTER.",
+        "banner1":{
+            "title": "We transport you straight to the goal.",
+            "text": "OUR METHOD WILL BRING YOU FAR AWAY.",
+            "subtitle1":"THE PROCESS",
+            "subtext1":"Making them more flexible and finding the best way to achieve the goal, without extra, in terms of time spent, activities and therefore costs.",
+            "subtitle2":"LOW COST",
+            "subtext2":"All our resources, both operational and control, are specifically trained and specialized.",
+            "subtitle3":"WE WATCH TO PROFIT",
+            "subtext3":"Optimizing and improving processes means not wasting resources and improving productivity."
+        },
+        "banner2":{
+            "title1": "The best solution.",
+            "title2": "Designed for you.",
+            "text1": "WE WORK AT YOUR SIDE TO HELP YOU TO MAINTAIN AND INCREASE YOUR COMPETITIVENESS, WITHIN A GLOBAL MARKET THAT IS ALWAYS MORE COMPLEX.",
+            "text2": "Whether it's logistics, integrated logistics, facility management, catering or cleaning, for us the starting point is always the same: you. We base the success and efficiency on the real partnership with our Client, which we accompany to the destination with innovative and completely tailored solutions, able to fit naturally within an already existing ecosystem."
+        }
     }
     
 }
