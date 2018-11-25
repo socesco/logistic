@@ -1,4 +1,5 @@
 {
+    "companyName": "Logistic S.P.A.",
     "pages": {
         "who-we-are": "Chi siamo",
         "services": "Servizi",
@@ -6,31 +7,81 @@
         "mission": "Missioni",
         "prenotation": "Prenotazione",
         "contact": "Contatti",
-        "administration": "Amministrazione",
-        "cleaning": "Pulizia",
-        "facilityManagement": "Gestione struttura",
+        "administration": "Servizi di Amministrazione",
+        "cleaning": "Servizi di Pulizia",
+        "facilityManagement": "Servizi di gestione struttura",
         "informaticsService": "Servizi informatici",
-        "logistic": "Logistica",
-        "otherService": "Altri servizi",
-        "restaurants": "Ristorazione",
-        "rent": "Noleggio",
-        "bookingLoadingUnloading": "Prenotazione carico scarico",
+        "logistic": "Servizi di Logistica",
+        "otherService": "Servizi ausiliari",
+        "restaurants": "Servizi di Ristorazione",
+        "rent": "Servizi di Noleggio",
+        "bookingLoadingUnloading": "Servizi di Prenotazione carico scarico",
         "news": "Novità"
     },
     "homepage":{
         "carosel":{
             "title1": "International Logistic Services",
             "text1": "FIANCO A FIANCO",
-            "img1": "https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg",
-            "title2": "Img 2",
-            "text2": "Text Img 2",
-            "img2": "https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg",
-            "title3": "Img 3",
-            "text3": "Text Img 3",
-            "img3": "https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg"
+            "img1": "../../assets/img/carousel/hp_slider_1.jpg",
+            "title2": "International Logistic Services",
+            "text2": "FIANCO A FIANCO",
+            "img2": "../../assets/img/carousel/hp_slider_2.jpg",
+            "title3": "International Logistic Services",
+            "text3": "FIANCO A FIANCO",
+            "img3": "../../assets/img/carousel/hp_slider_3.jpg",
+            "title4": "International Logistic Services",
+            "text4": "FIANCO A FIANCO",
+            "img4": "../../assets/img/carousel/hp_slider_4.jpg"
         },
         "title1": "I nostri servizi, al tuo servizio.",
         "text1": "QUI SOTTO QUELLO CHE SAPPIAMO FARE MEGLIO.",
+        "services": {
+            "logistic": {
+                "title": "Logistic",
+                "text": "Dalla gestione dei magazzini alla consegna",
+                "img": "../../assets/img/services/icons/logisticServices.png"
+            },
+            "facilityManagement": {
+                "title": "Facility Management",
+                "text": "La risposta ad ogni criticità",
+                "img": "../../assets/img/services/icons/facilityManagementServices.png"
+            },
+            "administration": {
+                "title": "Administration",
+                "text": "Abbiamo a cuore i tuoi numeri",
+                "img": "../../assets/img/services/icons/administrationServices.png"
+            },
+            "auxiliary": {
+                "title": "Auxiliary Services",
+                "text": "Una mano di qualità",
+                "img": "../../assets/img/services/icons/auxiliaryServices.png"
+            },
+            "cleaning": {
+                "title": "Cleaning",
+                "text": "Brilliamo per professionalità",
+                "img": "../../assets/img/services/icons/cleaningServices.png"
+            },
+            "informatic": {
+                "title": "Informatic Services",
+                "text":"Innovazione su misura per te",
+                "img": "../../assets/img/services/icons/informaticServices.png"
+            },
+            "restaurant": {
+                "title": "Restaurant Services",
+                "text":"",
+                "img": "../../assets/img/services/icons/restaurantServices.png"
+            },
+            "loadunload": {
+                "title": "Load Unload Services",
+                "text":"",
+                "img": "../../assets/img/services/icons/loadUnloadServices.png"
+            },
+            "rent": {
+                "title": "Rent Services",
+                "text":"",
+                "img": "../../assets/img/services/icons/rentServices.png"
+            }
+        },
         "banner1":{
             "title": "Vi trasportiamo dritti all’obiettivo.",
             "text": "IL NOSTRO METODO VI PORTERÀ LONTANO.",

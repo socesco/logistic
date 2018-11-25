@@ -38,6 +38,19 @@
         </div>
     </mdb-carousel-item>
     <!--/Third slide-->
+
+    <!--Third slide-->
+    <mdb-carousel-item>
+        <div class="view w-100">
+            <img class="d-block w-100" src="{{ 'homepage.carosel.img4' | translate }}" alt="Third slide">
+            <div class="mask rgba-black-slight waves-light" mdbWavesEffect></div>
+        </div>
+        <div class="carousel-caption">
+            <h3 class="h3-responsive">{{ 'homepage.carosel.title4' | translate }}</h3>
+            <p>{{ 'homepage.carosel.text4' | translate }}</p>
+        </div>
+    </mdb-carousel-item>
+    <!--/Third slide-->
 </mdb-carousel>
 <!--/.Carousel Wrapper-->
 
@@ -50,16 +63,60 @@
 
 <div class="container">
     <div class="centrato">
-        <mat-card class="example-card" *ngFor="let item of arrayOne(6); let i = index;">
-            <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+        <mat-card class="example-card" (click)="goto(logistic)">
+            <img mat-card-image src="{{ 'homepage.services.logistic.img' | translate }}" alt="{{ 'homepage.services.logistic.title' | translate }}">
             <mat-card-content>
+                <h5 class="uppercase"> {{ 'homepage.services.logistic.title' | translate }} </h5>
                 <p>
-                The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
-                A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
-                bred for hunting.
+                    {{ 'homepage.services.logistic.text' | translate }}
                 </p>
             </mat-card-content>
         </mat-card>
+        <mat-card class="example-card" (click)="goto(facilityManagement)">
+            <img mat-card-image src="{{ 'homepage.services.facilityManagement.img' | translate }}" alt="{{ 'homepage.services.facilityManagement.title' | translate }}">
+            <mat-card-content>
+                <h5 class="uppercase"> {{ 'homepage.services.facilityManagement.title' | translate }} </h5>
+                <p>
+                    {{ 'homepage.services.facilityManagement.text' | translate }}
+                </p>
+            </mat-card-content>
+        </mat-card>
+        <mat-card class="example-card" (click)="goto(administration)">
+            <img mat-card-image src="{{ 'homepage.services.administration.img' | translate }}" alt="{{ 'homepage.services.administration.title' | translate }}">
+            <mat-card-content>
+                <h5 class="uppercase"> {{ 'homepage.services.administration.title' | translate }} </h5>
+                <p>
+                    {{ 'homepage.services.administration.text' | translate }}
+                </p>
+            </mat-card-content>
+        </mat-card>
+        <mat-card class="example-card" (click)="goto(auxiliary)">
+            <img mat-card-image src="{{ 'homepage.services.auxiliary.img' | translate }}" alt="{{ 'homepage.services.auxiliary.title' | translate }}">
+            <mat-card-content>
+                <h5 class="uppercase"> {{ 'homepage.services.auxiliary.title' | translate }} </h5>
+                <p>
+                    {{ 'homepage.services.auxiliary.text' | translate }}
+                </p>
+            </mat-card-content>
+        </mat-card>
+        <mat-card class="example-card" (click)="goto(cleaning)">
+            <img mat-card-image src="{{ 'homepage.services.cleaning.img' | translate }}" alt="{{ 'homepage.services.cleaning.title' | translate }}">
+            <mat-card-content>
+                <h5 class="uppercase"> {{ 'homepage.services.cleaning.title' | translate }} </h5>
+                <p>
+                    {{ 'homepage.services.cleaning.text' | translate }}
+                </p>
+            </mat-card-content>
+        </mat-card>
+        <mat-card class="example-card" (click)="goto(informatic)">
+            <img mat-card-image src="{{ 'homepage.services.informatic.img' | translate }}" alt="{{ 'homepage.services.informatic.title' | translate }}">
+            <mat-card-content>
+                <h5 class="uppercase"> {{ 'homepage.services.informatic.title' | translate }} </h5>
+                <p>
+                    {{ 'homepage.services.informatic.text' | translate }}
+                </p>
+            </mat-card-content>
+        </mat-card>        
     </div>
 </div>
 
@@ -79,6 +136,7 @@
                 
                     <div class="grid-number3">3</div><div class="grid-title3">{{ 'homepage.banner1.subtitle3' | translate }}</div>
                     <div class="grid-text3">{{ 'homepage.banner1.subtext3' | translate }}</div>
+                    
                 </div>
             </div>
         </div>

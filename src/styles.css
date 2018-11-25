@@ -16,6 +16,7 @@ body{
     --red: #db2828;
     --orange: #f2711c;
     --green: #1ebc30;
+    --darkblue: #214081;
     --blue: #2185d0;
     --purple: #a333c8;
     --white: #ffffff;
@@ -48,6 +49,9 @@ body {
 }
 .container.start {
     margin: 70px auto 50px auto;
+}
+h2{
+    color: var( --darkblue);
 }
 
 /* MD CARDS */

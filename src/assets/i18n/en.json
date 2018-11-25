@@ -7,14 +7,14 @@
         "mission": "Mission",
         "prenotation": "Prenotation",
         "contact": "Contact",
-        "administration": "Administration",
-        "cleaning": "Cleaning",
-        "facilityManagement": "Facility Management",
+        "administration": "Administration Services",
+        "cleaning": "Cleaning Services",
+        "facilityManagement": "Facility Management Services",
         "informaticsService": "Informatic Services",
-        "logistic": "Logistic",
-        "otherService": "Other Services",
-        "restaurants": "Restaurants",
-        "rent": "Rent",
+        "logistic": "Logistic Services",
+        "otherService": "Auxiliary Services",
+        "restaurants": "Restaurants Services",
+        "rent": "Rent Services",
         "bookingLoadingUnloading": "Booking Loading Unloading Goods",
         "news": "News"
     }, 
@@ -22,16 +22,66 @@
         "carosel":{
             "title1": "International Logistic Services",
             "text1": "SIDE BY SIDE",
-            "img1": "https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg",
-            "title2": "Img 2",
-            "text2": "Text Img 2",
-            "img2": "https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg",
-            "title3": "Img 3",
-            "text3": "Text Img 3",
-            "img3": "https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg"
+            "img1": "../../assets/img/carousel/hp_slider_1.jpg",
+            "title2": "International Logistic Services",
+            "text2": "SIDE BY SIDE",
+            "img2": "../../assets/img/carousel/hp_slider_2.jpg",
+            "title3": "International Logistic Services",
+            "text3": "SIDE BY SIDE",
+            "img3": "../../assets/img/carousel/hp_slider_3.jpg",
+            "title4": "International Logistic Services",
+            "text4": "SIDE BY SIDE",
+            "img4": "../../assets/img/carousel/hp_slider_4.jpg"
         },
         "title1": "Ours services, at your service.",
         "text1": "HERE WHAT WE DO BETTER.",
+        "services": {
+            "logistic": {
+                "title": "Logistic",
+                "text": "From warehouse management to delivery",
+                "img": "../../assets/img/services/icons/logisticServices.png"
+            },
+            "facilityManagement": {
+                "title": "Facility Management",
+                "text": "The answer to every criticality",
+                "img": "../../assets/img/services/icons/facilityManagementServices.png"
+            },
+            "administration": {
+                "title": "Administration",
+                "text": "We care about your numbers",
+                "img": "../../assets/img/services/icons/administrationServices.png"
+            },
+            "auxiliary": {
+                "title": "Auxiliary Services",
+                "text": "A quality hand",
+                "img": "../../assets/img/services/icons/auxiliaryServices.png"
+            },
+            "cleaning": {
+                "title": "Cleaning",
+                "text": "We shine for professionalism",
+                "img": "../../assets/img/services/icons/cleaningServices.png"
+            },
+            "informatic": {
+                "title": "Informatic Services",
+                "text":"Customized innovation for you",
+                "img": "../../assets/img/services/icons/informaticServices.png"
+            },
+            "restaurant": {
+                "title": "Restaurant Services",
+                "text":"",
+                "img": "../../assets/img/services/icons/restaurantServices.png"
+            },
+            "loadunload": {
+                "title": "Load Unload Services",
+                "text":"",
+                "img": "../../assets/img/services/icons/loadUnloadServices.png"
+            },
+            "rent": {
+                "title": "Rent Services",
+                "text":"",
+                "img": "../../assets/img/services/icons/rentServices.png"
+            }
+        },
         "banner1":{
             "title": "We transport you straight to the goal.",
             "text": "OUR METHOD WILL BRING YOU FAR AWAY.",
