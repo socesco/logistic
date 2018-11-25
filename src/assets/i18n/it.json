@@ -7,15 +7,15 @@
         "mission": "Missioni",
         "prenotation": "Prenotazione",
         "contact": "Contatti",
-        "administration": "Servizi di Amministrazione",
-        "cleaning": "Servizi di Pulizia",
-        "facilityManagement": "Servizi di gestione struttura",
-        "informaticsService": "Servizi informatici",
-        "logistic": "Servizi di Logistica",
-        "otherService": "Servizi ausiliari",
-        "restaurants": "Servizi di Ristorazione",
-        "rent": "Servizi di Noleggio",
-        "bookingLoadingUnloading": "Servizi di Prenotazione carico scarico",
+        "administrationServices": "Servizi di Amministrazione",
+        "cleaningServices": "Servizi di Pulizia",
+        "facilityManagementServices": "Servizi di gestione struttura",
+        "informaticsServices": "Servizi informatici",
+        "logisticServices": "Servizi di Logistica",
+        "otherServices": "Servizi ausiliari",
+        "restaurantsServices": "Servizi di Ristorazione",
+        "rentServices": "Servizi di Noleggio",
+        "bookingLoadingUnloadingServices": "Servizi di Prenotazione carico scarico",
         "news": "Novità"
     },
     "homepage":{
@@ -96,7 +96,21 @@
             "title1": "La soluzione migliore.",
             "title2": "Pensata per voi.",
             "text1": "LAVORIAMO AL VOSTRO FIANCO PER AIUTARVI A MANTENERE E INCREMENTARE LA VOSTRA COMPETITIVITÀ, ALL’INTERNO DI UN MERCATO GLOBALE SEMPRE PIÙ COMPLESSO.",
-            "text2": "Che si tratti di logistica, logistica integrata, facility management, ristorazione o pulizie, per noi il punto di partenza è sempre lo stesso: voi. Basiamo il successo e l’efficienza sulla reale partnership con il nostro Cliente, che accompagniamo fino a destinazione con soluzioni innovative e completamente tailored, in grado di inserirsi in modo naturale all’interno di un ecosistema già esistente."
+            "text2": "Che si tratti di logistica, <b>logistica integrata, facility management, ristorazione o pulizie</b>, per noi il punto di partenza è sempre lo stesso: voi. Basiamo il successo e l’efficienza sulla reale <b>partnership con il nostro Cliente</b>, che accompagniamo fino a destinazione con <b>soluzioni innovative e completamente custom</b>, in grado di inserirsi in modo naturale all’interno di un ecosistema già esistente."
+        },
+        "values":{
+            "mqValue":"100.000",
+            "mqLabel":"MQ DI MAGAZZINI",
+            "revenueValue":"9mln",
+            "revenueLabel":"FATTURATO 2017",
+            "volumeValue":"20 mln",
+            "volumeLabel":"COLLI GESTITI ALL’ANNO",
+            "contributorValue":"297",
+            "contributorLabel": "COLLABORATORI",
+            "deliverValue":"30.000",
+            "deliverLabel":"CONSEGNE ALL’ANNO",
+            "kmValue":"1.5mln",
+            "kmLabel":"KM PERCORSI NEL 2017"
         }
     }
 

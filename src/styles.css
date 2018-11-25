@@ -1,5 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
-@import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
 body{
     margin: 0px;
     padding: 0px;
@@ -12,7 +11,7 @@ body{
 
 :root {
     --menu-color: #043e5a;
-    --main-bg-color: #e6e6e6;
+    --main-bg-color: #ffffff;
     --red: #db2828;
     --orange: #f2711c;
     --green: #1ebc30;
@@ -27,7 +26,7 @@ html, body { height: 100%; }
 body {
     background-color: var(--main-bg-color); 
     margin: 0; 
-    font-family: Roboto, "Helvetica Neue", sans-serif; 
+    font-family: 'Titillium Web',Helvetica,Arial,Lucida,sans-serif;
 }
 .clear{
     clear:both;
@@ -43,6 +42,9 @@ body {
 }
 .capitalize{
     text-transform: capitalize;
+}
+.bold{
+    font-weight: bold;
 }
 .container{
     width: 100%;
