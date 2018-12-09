@@ -1,7 +1,104 @@
 <app-navigation [sezione]="sezione"></app-navigation>
-<div class="container start">
-  <p>
-    who-we-are works!
-  </p>
+
+<div class="container2 type3">
+    <div class="centrato grid-content-type3">
+        <div class="riquadro1 quote">
+            <p class="darkblue">{{ 'whoWeAre.banner2.title1' | translate }}</p>
+            <p class="orange">{{ 'whoWeAre.banner2.title2' | translate }}</p>
+        </div>
+        <div class="riquadro2 quote">
+            <p class="upercase bold">{{ 'whoWeAre.banner2.text1' | translate }}</p>
+            <p>{{ 'whoWeAre.banner2.text2' | translate }}</p>
+            <p>{{ 'whoWeAre.banner2.text3' | translate }}</p>
+            <h3 class="orange bold">{{ 'whoWeAre.banner2.title3' | translate }}</h3>
+            <button mat-raised-button color="primary" class="uppercase" (click)="goto('contact')">{{'pages.contact' | translate}}</button>
+        </div>
+    </div>
 </div>
+
+<div class="container2 type2">
+    <div class="centrato">
+        
+        <h1>{{ 'whoWeAre.history.title1' | translate }}</h1>
+        <p class="upercase orange">{{ 'whoWeAre.history.title2' | translate }}</p>
+
+        
+        <!--Carousel Wrapper-->
+        <mdb-carousel [isControls]="true" class="carousel slide carousel-fade" [animation]="'fade'">
+            <!--First slide-->
+            <mdb-carousel-item>
+                <div class="view w-100">
+                    <img class="d-block w-100" src="../../assets/img/whoWeAre/empty.png" alt="Third slide">
+                    <div class="mask rgba-black-slight waves-light" mdbWavesEffect></div>
+                </div>
+                <div class="carousel-caption">
+                    <h3 class="h3-responsive">{{ 'whoWeAre.history.carousel.title1' | translate }}</h3>
+                    <p>{{ 'whoWeAre.history.carousel.text1' | translate }}</p>
+                </div>
+            </mdb-carousel-item>
+            <!--/First slide-->
+            <!--Second slide-->
+            <mdb-carousel-item>
+                <div class="view w-100">
+                    <img class="d-block w-100" src="../../assets/img/whoWeAre/empty.png" alt="Third slide">
+                    <div class="mask rgba-black-slight waves-light" mdbWavesEffect></div>
+                </div>
+                <div class="carousel-caption">
+                    <h3 class="h3-responsive">{{ 'whoWeAre.history.carousel.title2' | translate }}</h3>
+                    <p>{{ 'whoWeAre.history.carousel.text2' | translate }}</p>
+                </div>
+            </mdb-carousel-item>
+            <!--/Second slide-->
+            <!--Third slide-->
+            <mdb-carousel-item>
+                <div class="view w-100">
+                    <img class="d-block w-100" src="../../assets/img/whoWeAre/empty.png" alt="Third slide">
+                    <div class="mask rgba-black-slight waves-light" mdbWavesEffect></div>
+                </div>
+                <div class="carousel-caption">
+                    <h3 class="h3-responsive">{{ 'whoWeAre.history.carousel.title3' | translate }}</h3>
+                    <p>{{ 'whoWeAre.history.carousel.text3' | translate }}</p>
+                </div>
+            </mdb-carousel-item>
+            <!--/Third slide-->
+
+            <!--Third slide-->
+            <mdb-carousel-item>
+                <div class="view w-100">
+                    <img class="d-block w-100" src="../../assets/img/whoWeAre/empty.png" alt="Third slide">
+                    <div class="mask rgba-black-slight waves-light" mdbWavesEffect></div>
+                </div>
+                <div class="carousel-caption">
+                    <h3 class="h3-responsive">{{ 'whoWeAre.history.carousel.title4' | translate }}</h3>
+                    <p>{{ 'whoWeAre.history.carousel.text4' | translate }}</p>
+                </div>
+            </mdb-carousel-item>
+            <!--/Third slide-->
+        </mdb-carousel>
+        <!--/.Carousel Wrapper-->
+        
+    </div>
+</div>
+
+<div class="container">
+    <div class="centrato">
+        <mat-card *ngFor="let client of listOfClients" class="example-card">
+            <img mat-card-image src="{{client.img}}" alt={{client.name}}>
+        </mat-card>
+    </div>
+</div>
+
+<div class="container3">
+    <div class="centrato grid-content-type">
+        <div class="riquadro1">
+            <h3 class="orange uppercase">{{ 'whoWeAre.certificate.title' | translate }}</h3>
+        </div>
+        <div class="riquadro2 quote">
+            <p><img mat-card-image src="{{'whoWeAre.certificate.img' | translate }}" alt="{{'whoWeAre.certificate.title' | translate }}"></p>
+            <p>{{ 'whoWeAre.certificate.text1' | translate }}</p>
+            <p>{{ 'whoWeAre.certificate.text2' | translate }}</p>
+        </div>
+    </div>
+</div>
+
 <app-footer></app-footer>

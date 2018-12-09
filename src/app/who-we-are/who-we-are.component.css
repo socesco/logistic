@@ -1,0 +1,200 @@
+mat-card{
+    margin: 10px;
+    display: inline-block;
+    background-color: var(--main-bg-color); 
+    -webkit-box-shadow: none!important;
+	-moz-box-shadow: none!important;
+    box-shadow: none!important;
+    min-width: 200px;
+    cursor: pointer;
+}
+
+mat-card.example-card img{
+    width: 100px;
+    background-size: cover;
+}
+
+button{
+    margin: 30px auto;
+}
+
+.container2.type2{
+    background: url("../../assets/img/whoWeAre/chisiamo_storia.png") no-repeat top;
+    background-size: cover;
+    width:100%;
+    min-height: 500px;
+}
+
+.container2 h1{
+    font-weight: bolder;
+    color: var( --white);
+}
+.container2 .centrato{
+    padding-top: 50px;
+}
+.orange{
+    color: var( --orange);
+}
+.darkblue{
+    color: var( --darkblue);
+}
+.container3 {
+    margin: 0px;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+
+
+@media only screen and (max-width: 990px) {
+    h3{
+        font-size: 1.2em;
+    }
+    .grid-content-type2{
+        display: grid;
+        padding: 10px; 
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 1fr; 
+        grid-template-areas: "A2";
+        min-height:640px;
+    }
+
+    .grid-content-type3{
+        display: grid;
+        padding: 10px; 
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 1fr 1fr; 
+        grid-template-areas: "A1" "A2";
+        min-height:640px;
+    }
+
+    .riquadro1.bgman {
+        display:none;
+    }
+    .container2 h1{
+        font-size: 2em;
+    }
+    .container2 p{
+        font-size: 1em;
+    }
+    .riquadro1.quote p{
+        font-size: 2em;
+        font-weight: bolder;
+    }
+    .container3 .grid-content-type .riquadro1{
+        height: 100px;
+    }
+    .grid-content-type h3{
+        font-weight: bolder;
+        color: var( --orange);
+        padding-top: 50px;
+    }
+    .riquadro2.quote p{
+        font-size: 0.8em;
+        color: var( --black);
+        line-height: 1em;
+        padding: 30px;
+        text-align: left;
+    }
+    .container2.type2 .centrato mdb-carousel mdb-carousel-item{
+        padding-top: 150px;
+    }
+    .grid-content-type .riquadro2 p img{
+        width: 350px;
+    }
+}
+
+@media only screen and (min-width: 991px) {
+
+    .container3 .centrato{
+        margin: 10px auto;
+        width: 1080px;
+    }
+
+    
+    .grid-content-type2,.grid-content-type3{
+        display: grid;
+        padding: 30px 30px 0px 30px; 
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr; 
+        grid-template-areas: "A1 A2";
+        min-height:640px;
+    }
+    .grid-content-type{
+        display: grid;
+        padding: 30px 30px 0px 30px; 
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 1fr; 
+        grid-template-areas: "A1 A2 A2 A2 A2";
+        min-height:640px;
+    }
+
+    .grid-content-type h3{
+        font-weight: bolder;
+        color: var( --orange);
+        padding-top: 100px;
+    }
+
+    .riquadro1.bgman {
+        grid-area: A1;
+        width: 100%;
+        height: 100%;
+        background: url("../../assets/img/hp_about_man.png") no-repeat top;
+        background-size: auto;
+    }
+    .riquadro1.quote p{
+        font-size: 3em;
+        font-weight: bolder;
+    }
+    .riquadro2.quote p{
+        font-size: 1em;
+        color: var( --black);
+        line-height: 1.4em;
+        padding:50px 40px 0px 40px;
+        text-align: left;
+    }
+
+}
+
+.riquadro1.quote{
+    padding: 130px 0px;
+    grid-area: A1;
+    width: 100%;
+    height: 100%;
+    background: url("../../assets/img/whoWeAre/chisiamo_man_quote.jpg") no-repeat top;
+    background-size: auto;
+    line-height: 1.8em;
+}
+
+.riquadro2 {
+    grid-area: A2;
+    width: 100%;
+    height: 100%;
+    color: var( --white);
+}
+
+ol {
+    list-style: none;
+    counter-reset: item;
+    padding-left: 40px;
+}
+ol li {
+    text-align: left;
+    counter-increment: item;
+    margin-bottom: 5px;
+    position: relative;
+}
+ol li:before {
+    margin: 30px 20px;
+    content: counter(item);
+    font-size: 4em;
+    font-weight: bolder;
+    color: var( --orange);
+    position: absolute;
+    --size: 30px;
+    left: calc(-1 * var(--size) - 30px);
+    line-height: var(--size);
+    width: var(--size);
+    height: var(--size);
+    top: 0;
+}
+

@@ -33,6 +33,23 @@
             "text4": "FIANCO A FIANCO",
             "img4": "../../assets/img/carousel/hp_slider_4.jpg"
         },
+        "carosel2":[{
+            "title": "International Logistic Services",
+            "text": "FIANCO A FIANCO",
+            "img": "../../assets/img/carousel/hp_slider_1.jpg"
+        },{
+            "title": "International Logistic Services",
+            "text": "FIANCO A FIANCO",
+            "img": "../../assets/img/carousel/hp_slider_2.jpg"
+        },{
+            "title": "International Logistic Services",
+            "text": "FIANCO A FIANCO",
+            "img": "../../assets/img/carousel/hp_slider_3.jpg"
+        },{
+            "title": "International Logistic Services",
+            "text": "FIANCO A FIANCO",
+            "img": "../../assets/img/carousel/hp_slider_4.jpg"
+        }],
         "title1": "I nostri servizi, al tuo servizio.",
         "text1": "QUI SOTTO QUELLO CHE SAPPIAMO FARE MEGLIO.",
         "services": {
@@ -111,7 +128,42 @@
             "deliverLabel":"CONSEGNE ALL’ANNO",
             "kmValue":"1.5mln",
             "kmLabel":"KM PERCORSI NEL 2017"
+        },
+        "banner3":{
+            "title":"Prenotazione scarico automezzi",
+            "text":"SCOPRI E ACCEDI AL SERVIZIO CHE TI PERMETTE DI OTTIMIZZARE IL PROCESSO DI SCARICO MERCI."
         }
+    },
+    "whoWeAre":{
+        "banner2":{
+            "title1": "La soluzione migliore.",
+            "title2": "Pensata per voi.",
+            "text1": "SIN DALL’INIZIO, NEL 1989, INTERNATIONAL LOGISTIC SERVICES S.P.A. SI È DISTINTA COME UNA DELLE AZIENDE DI LOGISTICA DEL NORD ITALIA PIÙ INNOVATIVE NELL’OFFERTA DI SOLUZIONI LEGATE A LOGISTICA E TRASPORTI, MA NON SOLO.",
+            "text2": "Da quasi 30 anni il nostro metodo ci pone saldamente <b>al fianco dei nostri Clienti</b>. Instauriamo una solida partnership e insieme a loro troviamo il percorso migliore per raggiungere <b>risultati eccellenti</b>. Dai servizi di logistica e logistica integrata in Italia e all’estero all’amministrazione, dalla ristorazione al facility management, dal noleggio alle pulizie sino ai sistemi IT, siamo in grado di offrire la giusta soluzione, quella <b>più adatta agli obiettivi che si intendono raggiungere</b>.",
+            "text3": "Il nostro obiettivo è quello di affiancare i Clienti in un percorso condiviso, capace di razionalizzare e ottimizzare flussi di lavoro e procedure, <b>trasformando i risultati in risultati eccellenti</b>.",
+            "title3": "HAI BISOGNO DI INFORMAZIONI?"
+        },
+        "history":{
+            "title1": "La nostra storia.",
+            "title2": "UN PERCORSO IN CRESCITA, AL VOSTRO FIANCO.",
+            "carousel": {
+                "title1": "1989",
+                "text1": "International Logistic Services getta le fondamenta, iniziando a cooperare con altri consorzi, dimostrando la propria attitudine all’innovazione.",
+                "title2": "2007",
+                "text2": "Nasce il consorzio International Logistic Services.",
+                "title3": "2012",
+                "text3": "Il consorzio International Logistic Services cresce e diventa una S.p.a. offrendo così maggior serenità e garanzia ai committenti.",
+                "title4": "2014",
+                "text4": "Per festeggiare i suoi 15 anni, International Logistic Services S.p.a. chiude l’anno con un fatturato di 30 Mln di Euro."
+            }
+        },
+        "certificate":{
+            "title": "LE NOSTRE CERTIFICAZIONI",
+            "img": "../../assets/img/whoWeAre/chisiamo_certificazioni.png",
+            "text1": "International Logistic Services S.p.a. rientra tra i soci fondatori di PMI Italia, una confederazione attiva a livello nazionale che si propone di unire aziende che vivono in un contesto sociale univoco e con tematiche omogenee, favorendo cultura ed etica d’impresa, l’approfondimento delle grandi tematiche che interessano l’impresa stessa, l’economia e la società civile.",
+            "text2": "In aggiunta a questo, PMI Italia promuove la formazione continua collaborando con centri e strutture universitarie."
+        }
+
     }
 
 

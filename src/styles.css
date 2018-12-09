@@ -20,6 +20,7 @@ body{
     --purple: #a333c8;
     --white: #ffffff;
     --black: #000000;
+    --gray: #dddddd;
 }
 
 html, body { height: 100%; }
@@ -45,6 +46,9 @@ body {
 }
 .bold{
     font-weight: bold;
+}
+.bolder{
+    font-weight: bolder;
 }
 .container{
     width: 100%;

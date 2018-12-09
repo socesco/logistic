@@ -97,6 +97,54 @@
             "title2": "Designed for you.",
             "text1": "WE WORK AT YOUR SIDE TO HELP YOU TO MAINTAIN AND INCREASE YOUR COMPETITIVENESS, WITHIN A GLOBAL MARKET THAT IS ALWAYS MORE COMPLEX.",
             "text2": "Whether it's logistics, integrated logistics, facility management, catering or cleaning, for us the starting point is always the same: you. We base the success and efficiency on the real partnership with our Client, which we accompany to the destination with innovative and completely tailored solutions, able to fit naturally within an already existing ecosystem."
+        },
+        "values":{
+            "mqValue":"100.000",
+            "mqLabel":"MQ warehouse",
+            "revenueValue":"9mln",
+            "revenueLabel":"TURNOVER 2017",
+            "volumeValue":"20 mln",
+            "volumeLabel":"package MANAGED YEAR",
+            "contributorValue":"297",
+            "contributorLabel": "COLLABORATORS",
+            "deliverValue":"30.000",
+            "deliverLabel":"DELIVERIES PER YEAR",
+            "kmValue":"1.5mln",
+            "kmLabel":"KM traveled in 2017"
+        },
+        "banner3":{
+            "title":"Reservation for unloading of vehicles",
+            "text":"DISCOVER AND ACCESS THE SERVICE THAT ALLOWS YOU TO OPTIMIZE THE PROCESS OF UNLOADING GOODS."
+        }
+    },
+    "whoWeAre":{
+        "banner2":{
+            "title1": "The best solution.",
+            "title2": "Designed for you.",
+            "text1": "SINCE THE BEGINNING, IN 1989, INTERNATIONAL LOGISTIC SERVICES S.P.A. IT IS DISTINCT AS ONE OF THE MOST INNOVATIVE LOGISTICS OF NORTHERN ITALY IN THE OFFER OF SOLUTIONS RELATED TO LOGISTICS AND TRANSPORT, BUT NOT ONLY.",
+            "text2": "For almost 30 years our method has placed us firmly <b> alongside our Customers </ b>. We establish a solid partnership and together with them we find the best path to achieve <b> excellent results </ b>. From integrated logistics and logistics services in Italy and abroad to administration, from catering to facility management, from rental to cleaning to IT systems, we are able to offer the right solution, the one most suited to the objectives that you intend to reach </ b>.",
+            "text3": "Our goal is to support Clients in a shared path, capable of rationalizing and optimizing workflows and procedures, <b> transforming results into excellent results </ b>.",
+            "title3": "DO YOU NEED INFORMATION?"
+        },
+        "history":{
+            "title1": "Ours history.",
+            "title2": "A GROWTH ROUTE, AT YOUR SIDE.",
+            "carousel": {
+                "title1": "1989",
+                "text1": "International Logistic Services lays the foundations, starting to cooperate with other consortia, demonstrating their ability to innovate.",
+                "title2": "2007",
+                "text2": "The International Logistic Services consortium is born.",
+                "title3": "2012",
+                "text3": "The International Logistic Services consortium grows and becomes a S.p.a. offering greater serenity and guarantee to customers.",
+                "title4": "2014",
+                "text4": "To celebrate its 15th anniversary, International Logistic Services S.p.a. closes the year with a turnover of 30 million euros."
+            }
+        },
+        "certificate":{
+            "title": "OUR CERTIFICATIONS",
+            "img": "../../assets/img/whoWeAre/chisiamo_certificazioni.png",
+            "text1": "International Logistic Services S.p.a. is one of the founding members of PMI Italia, a nationally active confederation that aims to unite companies that live in a unique social context and with homogeneous themes, fostering culture and business ethics, the deepening of the major issues affecting the enterprise itself, the economy and civil society.",
+            "text2": "In addition to this, PMI Italia promotes continuous training by collaborating with university centers and structures."
         }
     }
     
