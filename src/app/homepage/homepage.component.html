@@ -2,8 +2,8 @@
 
 <!--Carousel Wrapper-->
 <mdb-carousel [isControls]="true" class="carousel slide carousel-fade" [animation]="'fade'">
-    <!--First slide-->
-    <mdb-carousel-item>
+   <!--First slide-->
+   <mdb-carousel-item>
         <div class="view w-100">
             <img class="d-block w-100" src="{{ 'homepage.carosel.img1' | translate }}" alt="First slide">
             <div class="mask rgba-black-light waves-light" mdbWavesEffect></div>
@@ -39,7 +39,7 @@
     </mdb-carousel-item>
     <!--/Third slide-->
 
-    <!--Third slide-->
+    <!--Fourth slide-->
     <mdb-carousel-item>
         <div class="view w-100">
             <img class="d-block w-100" src="{{ 'homepage.carosel.img4' | translate }}" alt="Third slide">
@@ -50,20 +50,33 @@
             <p>{{ 'homepage.carosel.text4' | translate }}</p>
         </div>
     </mdb-carousel-item>
-    <!--/Third slide-->
+    <!--/Fourth slide-->
+   
+    <!--
+    <mdb-carousel-item *ngFor="let itemSlide of carousel">
+        <div class="view w-100">
+            <img class="d-block w-100" src="{{itemSlide.img}}" alt="First slide">
+            <div class="mask rgba-black-light waves-light" mdbWavesEffect></div>
+        </div>
+        <div class="carousel-caption">
+            <h3 class="h3-responsive">{{ itemSlide.title }}</h3>
+            <p>{{ itemSlide.text }}</p>
+        </div>
+    </mdb-carousel-item>
+    -->
 </mdb-carousel>
 <!--/.Carousel Wrapper-->
 
 <div class="container start">
-    <div class="centrato">
+    <div class="centered">
         <h2>{{ 'homepage.title1' | translate }}</h2>
         <p>{{ 'homepage.text1' | translate }}</p>
     </div>
 </div>
 
 <div class="container">
-    <div class="centrato">
-        <mat-card class="example-card" (click)="goto('logistic')">
+    <div class="centered">
+        <mat-card (click)="goto('logistic')">
             <img mat-card-image src="{{ 'homepage.services.logistic.img' | translate }}" alt="{{ 'homepage.services.logistic.title' | translate }}">
             <mat-card-content>
                 <h5 class="uppercase"> {{ 'homepage.services.logistic.title' | translate }} </h5>
@@ -72,7 +85,7 @@
                 </p>
             </mat-card-content>
         </mat-card>
-        <mat-card class="example-card" (click)="goto('facilityManagement')">
+        <mat-card (click)="goto('facilityManagement')">
             <img mat-card-image src="{{ 'homepage.services.facilityManagement.img' | translate }}" alt="{{ 'homepage.services.facilityManagement.title' | translate }}">
             <mat-card-content>
                 <h5 class="uppercase"> {{ 'homepage.services.facilityManagement.title' | translate }} </h5>
@@ -81,7 +94,7 @@
                 </p>
             </mat-card-content>
         </mat-card>
-        <mat-card class="example-card" (click)="goto('administration')">
+        <mat-card (click)="goto('administration')">
             <img mat-card-image src="{{ 'homepage.services.administration.img' | translate }}" alt="{{ 'homepage.services.administration.title' | translate }}">
             <mat-card-content>
                 <h5 class="uppercase"> {{ 'homepage.services.administration.title' | translate }} </h5>
@@ -90,7 +103,7 @@
                 </p>
             </mat-card-content>
         </mat-card>
-        <mat-card class="example-card" (click)="goto('auxiliary')">
+        <mat-card (click)="goto('auxiliary')">
             <img mat-card-image src="{{ 'homepage.services.auxiliary.img' | translate }}" alt="{{ 'homepage.services.auxiliary.title' | translate }}">
             <mat-card-content>
                 <h5 class="uppercase"> {{ 'homepage.services.auxiliary.title' | translate }} </h5>
@@ -99,7 +112,7 @@
                 </p>
             </mat-card-content>
         </mat-card>
-        <mat-card class="example-card" (click)="goto('cleaning')">
+        <mat-card (click)="goto('cleaning')">
             <img mat-card-image src="{{ 'homepage.services.cleaning.img' | translate }}" alt="{{ 'homepage.services.cleaning.title' | translate }}">
             <mat-card-content>
                 <h5 class="uppercase"> {{ 'homepage.services.cleaning.title' | translate }} </h5>
@@ -108,7 +121,7 @@
                 </p>
             </mat-card-content>
         </mat-card>
-        <mat-card class="example-card" (click)="goto('informatic')">
+        <mat-card (click)="goto('informatic')">
             <img mat-card-image src="{{ 'homepage.services.informatic.img' | translate }}" alt="{{ 'homepage.services.informatic.title' | translate }}">
             <mat-card-content>
                 <h5 class="uppercase"> {{ 'homepage.services.informatic.title' | translate }} </h5>
@@ -121,10 +134,10 @@
     <button mat-raised-button class="uppercase" (click)="goto()">scopri</button>
 </div>
 
-<div class="container2 type2">
-    <div class="centrato grid-content-type2">
-        <div class="riquadro1 bgman"></div>
-        <div class="riquadro2">
+<div class="container2 type1">
+    <div class="centered grid-content-type1">
+        <div class="grid1"></div>
+        <div class="grid2">
                 <h1>{{ 'homepage.banner1.title' | translate }}</h1>
                 <p class="upercase orange">{{ 'homepage.banner1.text' | translate }}</p>
 
@@ -148,13 +161,13 @@
     </div>
 </div>
 
-<div class="container2 type3">
-    <div class="centrato grid-content-type3">
-        <div class="riquadro1 quote">
+<div class="container2 type2">
+    <div class="centered grid-content-type2">
+        <div class="grid1 quote">
             <p class="darkblue">{{ 'homepage.banner2.title1' | translate }}</p>
             <p class="orange">{{ 'homepage.banner2.title2' | translate }}</p>
         </div>
-        <div class="riquadro2 quote">
+        <div class="grid2">
             <p class="upercase bold">{{ 'homepage.banner2.text1' | translate }}</p>
             <p>{{ 'homepage.banner2.text2' | translate }}</p>
             <button mat-raised-button color="primary" class="uppercase" (click)="goto('contact')">{{'pages.contact' | translate}}</button>
@@ -164,39 +177,39 @@
 
 
 <div class="container">
-    <div class="centrato">
+    <div class="centered">
         <hr/>
-        <mat-card class="example-card">
+        <mat-card>
             <mat-card-content>
                 <h2 class="uppercase orange"> {{ 'homepage.values.mqValue' | translate }} </h2>
                 <p>{{ 'homepage.values.mqLabel' | translate }}</p>
             </mat-card-content>
         </mat-card>
-        <mat-card class="example-card">
+        <mat-card>
             <mat-card-content>
                 <h2 class="uppercase orange"> {{ 'homepage.values.revenueValue' | translate }} </h2>
                 <p>{{ 'homepage.values.revenueLabel' | translate }}</p>
             </mat-card-content>
         </mat-card>
-        <mat-card class="example-card">
+        <mat-card>
             <mat-card-content>
                 <h2 class="uppercase orange"> {{ 'homepage.values.volumeValue' | translate }} </h2>
                 <p>{{ 'homepage.values.volumeLabel' | translate }}</p>
             </mat-card-content>
         </mat-card>
-        <mat-card class="example-card">
+        <mat-card>
             <mat-card-content>
                 <h2 class="uppercase orange"> {{ 'homepage.values.contributorValue' | translate }} </h2>
                 <p>{{ 'homepage.values.contributorLabel' | translate }}</p>
             </mat-card-content>
         </mat-card>
-        <mat-card class="example-card">
+        <mat-card>
             <mat-card-content>
                 <h2 class="uppercase orange"> {{ 'homepage.values.deliverValue' | translate }} </h2>
                 <p>{{ 'homepage.values.deliverLabel' | translate }}</p>
             </mat-card-content>
         </mat-card>
-        <mat-card class="example-card">
+        <mat-card>
             <mat-card-content>
                 <h2 class="uppercase orange"> {{ 'homepage.values.kmValue' | translate }} </h2>
                 <p>{{ 'homepage.values.kmLabel' | translate }}</p>
@@ -205,8 +218,8 @@
     </div>
 </div>
 
-<div class="container3 type3">
-    <div class="centrato">
+<div class="container2 type3">
+    <div class="centered">
         <h1 class="upercase">{{ 'homepage.banner3.title' | translate }}</h1>
         <p class="upercase">{{ 'homepage.banner3.text' | translate }}</p>
         <button mat-flat-button class="uppercase" (click)="goto('prenotation')">{{'pages.prenotation' | translate}}</button>
@@ -216,7 +229,7 @@
 <!--
 <section class="bg2-desktop">
     <div class="wrapper">
-        <div class="centrato">
+        <div class="centered">
             <div class="text-banner">
                 <h3>{{ 'homepage.banner2.title1' | translate }} <br/> {{ 'homepage.banner2.title2' | translate }}</h3>
                 <p>{{ 'homepage.banner2.text1' | translate }}</p>
@@ -227,7 +240,7 @@
 </section>
 
 <div class="container">
-    <mat-card class="example-card" *ngFor="let item of arrayOne(9); let i = index;">
+    <mat-card *ngFor="let item of arrayOne(9); let i = index;">
         <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
         <mat-card-content>
             <p>

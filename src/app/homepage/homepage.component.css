@@ -1,15 +1,14 @@
-mat-card{
-    margin: 10px;
-    display: inline-block;
-    background-color: var(--main-bg-color); 
-    -webkit-box-shadow: none!important;
-	-moz-box-shadow: none!important;
-    box-shadow: none!important;
-    min-width: 300px;
-    cursor: pointer;
+.container.start h2{
+    color: var( --darkblue);
+    font-weight: bolder;
 }
 
-mat-card.example-card img{
+mat-card{
+    width: 300px;
+    display: inline-block;
+}
+
+mat-card img{
     width: 100px;
     background-size: cover;
 }
@@ -18,24 +17,21 @@ button{
     margin: 30px auto;
 }
 
-.container2.type2{
+.container2.type1{
     background: url("../../assets/img/storage.jpg") no-repeat top;
-    width:100%;
-    height: 640px;
 }
-.container3.type3{
+.container2.type3{
     background: url("../../assets/img/magazzino4.jpg") no-repeat top;
     width:100%;
-    height: 340px;
+    height: 400px;
     opacity: 0.8;
 }
-.container2 h1, .container3 h1, .container3 p{
+
+.container2.type1 h1, .container2.type1 p, .container2.type3 h1, .container2.type3 p{
     font-weight: bolder;
     color: var( --white);
 }
-.container3 .centrato{
-    padding-top: 50px;
-}
+
 .orange{
     color: var( --orange);
 }
@@ -44,12 +40,14 @@ button{
 }
 
 
-
+/* Mobile */
 @media only screen and (max-width: 990px) {
-    h3{
-        font-size: 1.2em;
+    
+    .container2 .centered{
+        padding-top: 20px;
     }
-    .grid-content-type2{
+
+    .container2.type1 .grid-content-type1{
         display: grid;
         padding: 10px; 
         grid-template-columns: repeat(1, 1fr);
@@ -58,7 +56,7 @@ button{
         min-height:640px;
     }
 
-    .grid-content-type3{
+    .container2.type2 .grid-content-type2{
         display: grid;
         padding: 10px; 
         grid-template-columns: repeat(1, 1fr);
@@ -67,21 +65,27 @@ button{
         min-height:640px;
     }
 
-    .riquadro1.bgman {
+    .container2.type1 .grid-content-type1 .grid1 {
         display:none;
     }
     .container2 h1{
-        font-size: 2em;
+        font-size: 1.8em;
+    }
+    .container2 h2{
+        font-size: 1.5em;
+    }
+    h3{
+        font-size: 1.2em;
     }
     .container2 p{
-        font-size: 1em;
+        font-size: 0.9em;
     }
-    .riquadro1.quote p{
-        font-size: 2em;
+    .grid1.quote p{
+        font-size: 1.8em;
         font-weight: bolder;
     }
-    .riquadro2.quote p{
-        font-size: 0.8em;
+    .grid2.quote p{
+        font-size: 0.9em;
         color: var( --black);
         line-height: 1em;
         padding: 30px;
@@ -89,10 +93,13 @@ button{
     }
 
 }
-
+/* Desktop */
 @media only screen and (min-width: 991px) {
+    .container2 .centered{
+        padding-top: 50px;
+    }
 
-    .grid-content-type2,.grid-content-type3{
+    .container2 .grid-content-type1,.container2 .grid-content-type2{
         display: grid;
         padding: 30px 30px 0px 30px; 
         grid-template-columns: repeat(2, 1fr);
@@ -101,18 +108,18 @@ button{
         min-height:640px;
     }
 
-    .riquadro1.bgman {
+    .container2.type1 .grid-content-type1 .grid1 {
         grid-area: A1;
         width: 100%;
         height: 100%;
         background: url("../../assets/img/hp_about_man.png") no-repeat top;
         background-size: auto;
     }
-    .riquadro1.quote p{
+    .container2.type2 .grid-content-type2 .grid1 p{
         font-size: 3em;
         font-weight: bolder;
     }
-    .riquadro2.quote p{
+    .container2.type2 .grid-content-type2 .grid2 p{
         font-size: 1em;
         color: var( --black);
         line-height: 1.4em;
@@ -122,48 +129,7 @@ button{
 
 }
 
-.riquadro1.quote{
-    padding: 130px 0px;
-    grid-area: A1;
-    width: 100%;
-    height: 100%;
-    background: url("../../assets/img/hp_quote.png") no-repeat top;
-    background-size: auto;
-    line-height: 1.8em;
-}
 
-.riquadro2 {
-    grid-area: A2;
-    width: 100%;
-    height: 100%;
-    color: var( --white);
-}
-
-ol {
-    list-style: none;
-    counter-reset: item;
-    padding-left: 40px;
-}
-ol li {
-    text-align: left;
-    counter-increment: item;
-    margin-bottom: 5px;
-    position: relative;
-}
-ol li:before {
-    margin: 30px 20px;
-    content: counter(item);
-    font-size: 4em;
-    font-weight: bolder;
-    color: var( --orange);
-    position: absolute;
-    --size: 30px;
-    left: calc(-1 * var(--size) - 30px);
-    line-height: var(--size);
-    width: var(--size);
-    height: var(--size);
-    top: 0;
-}
 
 .bg1-desktop {
     background: url("../../assets/img/magazzino3.jpg") no-repeat center fixed;

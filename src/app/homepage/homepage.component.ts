@@ -12,10 +12,15 @@ import { TranslateService } from '@ngx-translate/core';
 export class HomepageComponent implements OnInit {
 
   sezione: string = "home";
-  carousel: any;
+  carousel: Array<Object> = [];
 
 
-  constructor(private route: ActivatedRoute, private router: Router, private translate: TranslateService) { }
+  constructor(private route: ActivatedRoute, private router: Router, private translate: TranslateService) { 
+
+    this.translate.get('homepage.carosel').subscribe((res: string) => {
+      this.carousel = JSON.parse(JSON.stringify(res));
+    });
+  }
 
   ngOnInit() {
   }
@@ -23,6 +28,8 @@ export class HomepageComponent implements OnInit {
   arrayOne(n: number): any[] {
     return Array(n);
   }
+
+  
 
   goto = function(where){
     switch(where){

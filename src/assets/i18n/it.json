@@ -10,7 +10,7 @@
         "administrationServices": "Servizi di Amministrazione",
         "cleaningServices": "Servizi di Pulizia",
         "facilityManagementServices": "Servizi di gestione struttura",
-        "informaticsServices": "Servizi informatici",
+        "informaticsServices": "Servizi Informatici",
         "logisticServices": "Servizi di Logistica",
         "otherServices": "Servizi ausiliari",
         "restaurantsServices": "Servizi di Ristorazione",
@@ -54,47 +54,47 @@
         "text1": "QUI SOTTO QUELLO CHE SAPPIAMO FARE MEGLIO.",
         "services": {
             "logistic": {
-                "title": "Logistic",
+                "title": "Logistica",
                 "text": "Dalla gestione dei magazzini alla consegna",
                 "img": "../../assets/img/services/icons/logisticServices.png"
             },
             "facilityManagement": {
-                "title": "Facility Management",
+                "title": "Gestione delle infrastrutture",
                 "text": "La risposta ad ogni criticità",
                 "img": "../../assets/img/services/icons/facilityManagementServices.png"
             },
             "administration": {
-                "title": "Administration",
+                "title": "Servizi di amministrazione",
                 "text": "Abbiamo a cuore i tuoi numeri",
                 "img": "../../assets/img/services/icons/administrationServices.png"
             },
             "auxiliary": {
-                "title": "Auxiliary Services",
+                "title": "Servizi ausiliari",
                 "text": "Una mano di qualità",
                 "img": "../../assets/img/services/icons/auxiliaryServices.png"
             },
             "cleaning": {
-                "title": "Cleaning",
+                "title": "Servizi di pulizia",
                 "text": "Brilliamo per professionalità",
                 "img": "../../assets/img/services/icons/cleaningServices.png"
             },
             "informatic": {
-                "title": "Informatic Services",
+                "title": "Servizi informatici",
                 "text":"Innovazione su misura per te",
                 "img": "../../assets/img/services/icons/informaticServices.png"
             },
             "restaurant": {
-                "title": "Restaurant Services",
+                "title": "Servizi di ristorazione",
                 "text":"",
                 "img": "../../assets/img/services/icons/restaurantServices.png"
             },
             "loadunload": {
-                "title": "Load Unload Services",
+                "title": "Servizi di carico e scarico merci",
                 "text":"",
                 "img": "../../assets/img/services/icons/loadUnloadServices.png"
             },
             "rent": {
-                "title": "Rent Services",
+                "title": "Servizi di noleggio",
                 "text":"",
                 "img": "../../assets/img/services/icons/rentServices.png"
             }

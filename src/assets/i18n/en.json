@@ -33,6 +33,23 @@
             "text4": "SIDE BY SIDE",
             "img4": "../../assets/img/carousel/hp_slider_4.jpg"
         },
+        "carosel2":[{
+            "title": "International Logistic Services",
+            "text": "SIDE BY SIDE",
+            "img": "../../assets/img/carousel/hp_slider_1.jpg"
+        },{
+            "title": "International Logistic Services",
+            "text": "SIDE BY SIDE",
+            "img": "../../assets/img/carousel/hp_slider_2.jpg"
+        },{
+            "title": "International Logistic Services",
+            "text": "SIDE BY SIDE",
+            "img": "../../assets/img/carousel/hp_slider_3.jpg"
+        },{
+            "title": "International Logistic Services",
+            "text": "SIDE BY SIDE",
+            "img": "../../assets/img/carousel/hp_slider_4.jpg"
+        }],
         "title1": "Ours services, at your service.",
         "text1": "HERE WHAT WE DO BETTER.",
         "services": {
