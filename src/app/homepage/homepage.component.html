@@ -169,7 +169,7 @@
         </div>
         <div class="grid2">
             <p class="upercase bold">{{ 'homepage.banner2.text1' | translate }}</p>
-            <p>{{ 'homepage.banner2.text2' | translate }}</p>
+            <p [innerHTML]="'homepage.banner2.text2' | translate"></p>
             <button mat-raised-button color="primary" class="uppercase" (click)="goto('contact')">{{'pages.contact' | translate}}</button>
         </div>
     </div>
