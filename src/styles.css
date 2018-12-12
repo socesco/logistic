@@ -23,6 +23,19 @@ body{
     --gray: #dddddd;
 }
 
+.orange{
+    color: var( --orange);
+}
+.darkblue{
+    color: var( --darkblue);
+}
+.white{
+    color: var( --white);
+}
+.black{
+    color: var( --black);
+}
+
 html, body { height: 100%; }
 body {
     background-color: var(--main-bg-color); 
@@ -123,11 +136,17 @@ section {
 }
 
 .quote{
-    padding: 130px 0px;
-    background: url("./assets/img/hp_quote.png") no-repeat top;
+    padding: 130px 0px 0px 0px;
     background-size: auto;
     line-height: 1.8em;
 }
+.quote.normalBG{
+    background: url("./assets/img/hp_quote.png") no-repeat top;
+}
+.quote.manBG{
+    background: url("./assets/img/whoWeAre/chisiamo_man_quote.jpg") no-repeat top;
+}
+
 .grid1 {
     grid-area: A1;
     width: 100%;
@@ -137,6 +156,109 @@ section {
     grid-area: A2;
     width: 100%;
     height: 100%;
+}
+.container2.type1 h1, .container2.type1 p, .container2.type3 h1, .container2.type3 p{
+    font-weight: bolder;
+    color: var( --white);
+}
+/* Mobile */
+@media only screen and (max-width: 990px) {
+    .container2{
+        padding: 50px 10px 10px 10px; 
+    }
+    .container2.type1 .grid-content-type1{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 1fr; 
+        grid-template-areas: "A2";
+        min-height:640px;
+    }
+
+    .container2.type2 .grid-content-type2{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 1fr 1fr; 
+        grid-template-areas: "A1" "A2";
+        min-height:540px;
+    }
+
+    .container2.type1 .grid-content-type1 .grid1 {
+        display:none;
+    }
+    .container2 h1{
+        font-size: 1.8em;
+    }
+    .container2 h2{
+        font-size: 1.5em;
+    }
+    h3{
+        font-size: 1.2em;
+    }
+    .container2 p{
+        font-size: 0.9em;
+    }
+    .grid1.quote p{
+        font-size: 1.8em;
+        font-weight: bolder;
+    }
+    .grid2.quote p{
+        font-size: 0.9em;
+        color: var( --black);
+        line-height: 1em;
+        padding: 30px;
+        text-align: left;
+    }
+
+}
+/* Desktop */
+@media only screen and (min-width: 991px) {
+    .container2 .centered{
+        padding-top: 50px;
+    }
+
+    .container2 .grid-content-type1,.container2 .grid-content-type2,.container2 .grid-content-type3{
+        display: grid;
+        padding: 30px 30px 0px 30px; 
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr; 
+        grid-template-areas: "A1 A2";
+        min-height:540px;
+    }
+
+    .container2 .grid-content-type4{
+        display: grid;
+        padding: 30px 30px 0px 30px; 
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 1fr; 
+        grid-template-areas: "A1 A2 A2 A2 A2";
+        min-height:640px;
+    }
+
+    .container2.type1 .grid-content-type1 .grid1 {
+        grid-area: A1;
+        width: 100%;
+        height: 100%;
+        background: url("./assets/img/hp_about_man.png") no-repeat top;
+        background-size: auto;
+    }
+    .container2.type2 .grid-content-type2 .grid1 p{
+        font-size: 3em;
+        font-weight: bolder;
+    }
+    .container2.type2 .grid-content-type2 .grid2 p{
+        font-size: 1em;
+        color: var( --black);
+        line-height: 1.4em;
+        padding:50px 50px 0px 50px;
+        text-align: left;
+    }
+    .container2.type4 .grid-content-type4 .grid1{
+        padding-top: 100px;
+    }
+
+    .container2.type4 .grid-content-type4 .grid2{
+        padding: 30px;
+    }
 }
 
 ol {
@@ -163,26 +285,4 @@ ol li:before {
     width: var(--size);
     height: var(--size);
     top: 0;
-}
-
-@media only screen and (max-width: 990px) {
-    .text-banner h3 {
-        font-size: 28px;
-        margin: 20px 0 10px 0;
-    }
-
-    .text-banner p {
-        font-size: 14px;
-    }
-}
-
-@media only screen and (min-width: 991px) {
-    .text-banner h3 {
-        font-size: 50px;
-        margin: 20px 0 10px 0;
-    }
-
-    .text-banner p {
-        font-size: 18px;
-    }
 }

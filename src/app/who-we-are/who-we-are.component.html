@@ -1,12 +1,12 @@
 <app-navigation [sezione]="sezione"></app-navigation>
 
-<div class="container2 type3">
-    <div class="centrato grid-content-type3">
-        <div class="riquadro1 quote">
+<div class="container2 type2">
+    <div class="centered grid-content-type2">
+        <div class="grid1 quote manBG">
             <p class="darkblue">{{ 'whoWeAre.banner2.title1' | translate }}</p>
             <p class="orange">{{ 'whoWeAre.banner2.title2' | translate }}</p>
         </div>
-        <div class="riquadro2 quote">
+        <div class="grid2">
             <p class="upercase bold">{{ 'whoWeAre.banner2.text1' | translate }}</p>
             <p>{{ 'whoWeAre.banner2.text2' | translate }}</p>
             <p>{{ 'whoWeAre.banner2.text3' | translate }}</p>
@@ -16,8 +16,8 @@
     </div>
 </div>
 
-<div class="container2 type2">
-    <div class="centrato">
+<div class="container2 type3">
+    <div class="centered">
         
         <h1>{{ 'whoWeAre.history.title1' | translate }}</h1>
         <p class="upercase orange">{{ 'whoWeAre.history.title2' | translate }}</p>
@@ -81,19 +81,19 @@
 </div>
 
 <div class="container">
-    <div class="centrato">
+    <div class="centered">
         <mat-card *ngFor="let client of listOfClients" class="example-card">
             <img mat-card-image src="{{client.img}}" alt={{client.name}}>
         </mat-card>
     </div>
 </div>
 
-<div class="container3">
-    <div class="centrato grid-content-type">
-        <div class="riquadro1">
-            <h3 class="orange uppercase">{{ 'whoWeAre.certificate.title' | translate }}</h3>
+<div class="container2 type4">
+    <div class="centered grid-content-type4">
+        <div class="grid1">
+            <h3 class="orange uppercase bolder">{{ 'whoWeAre.certificate.title' | translate }}</h3>
         </div>
-        <div class="riquadro2 quote">
+        <div class="grid2 quote">
             <p><img mat-card-image src="{{'whoWeAre.certificate.img' | translate }}" alt="{{'whoWeAre.certificate.title' | translate }}"></p>
             <p>{{ 'whoWeAre.certificate.text1' | translate }}</p>
             <p>{{ 'whoWeAre.certificate.text2' | translate }}</p>
