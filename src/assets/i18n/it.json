@@ -164,6 +164,63 @@
             "text2": "In aggiunta a questo, PMI Italia promuove la formazione continua collaborando con centri e strutture universitarie."
         }
 
+    },
+    "ourSuccess":{
+        "stripe1":{
+            "title1": "Otteniamo grandi risultati.",
+            "title2": "Insieme a voi.",
+            "text1": "I vostri casi di successo sono i nostri casi migliori. Oltre a una metodologia “win win”, abbiamo sviluppato <b>sistemi e applicativi</b> in grado di semplificare, <b>migliorare e ottimizzare</b> sia le attività operative che quelle di controllo, <b>aumentandone così efficacia e risultati</b>.",
+            "img": ""
+        },
+        "stripe2":{
+            "title1": "1.Sistema di rilevazione presenze",
+            "text1": "Un applicativo totalmente “customizzabile”, interattivo e che permette di seguire da ogni dispositivo connesso (mobile e non) la situazione del personale presente in magazzino, gli spostamenti, l’inserimento dei giustificativi, la gestione dei DPI e tutto ciò che concerne il personale dipendente, con la possibilità infine dell’elaborazione delle buste paga.",
+            "img": "../../assets/img/ourSuccess/stripe2.jpg"
+        },
+        "stripe3":{
+            "title1": "2.Sistema di gestione delle attività",
+            "text1": "Una applicazione multi piattaforma, aperta a qualsiasi customizzazione, che permette di seguire e monitorare da qualsiasi dispositivo (mobile e non) performance e produttività divise per reparti, mansioni o qualsivoglia parametro.",
+            "img": "../../assets/img/ourSuccess/stripe3.jpg"
+        },
+        "stripe4":{
+            "title1": "3.Sistema di prenotazione scarichi",
+            "text1": "Applicazione anch’essa aperta a qualsiasi customizzazione che permette di regolamentare ed ottimizzare il flusso dei mezzi per l’attività di carico/scarico con la possibilità di produrre report ed interagire direttamente con il vettore.",
+            "img": "../../assets/img/ourSuccess/stripe4.jpg"
+        },
+        "stripe5":{
+            "title1": "4.Sviluppo lettore OCR",
+            "text1": "Abbiamo sviluppato un software che, da un documento cartaceo, estrae e converte in dati gli elementi selezionati relativi al corpo del ddt (mittente, destinatario, peso, volume, colli, etc.). Questo software è risultato fondamentale in tutte quelle piattaforme logistiche che hanno difficoltà, per limiti propri o dei propri clienti, a ricevere o spedire flussi digitalizzati consentendo, una volta applicato, un risparmio in ore lavoro del personale d’ufficio pari ad oltre il 30%.",
+            "img": "../../assets/img/ourSuccess/stripe5.jpg"
+        }
+    },
+    "mission":{
+        "stripe1":{
+            "title": "IL NOSTRO OBIETTIVO È RAGGIUNGERE IL VOSTRO OBIETTIVO.",
+            "text1": "LA MISSION DI INTERNATIONAL LOGISTIC SERVICES S.P.A. È QUELLA DI PROPORSI COME PARTNER FIDATO DEI PROPRI CLIENTI, OCCUPANDOSI DELLE ATTIVITÀ DI LOGISTICA, GARANTENDO UN’ELEVATA PROFESSIONALITÀ E UN ALTO LIVELLO INNOVATIVO, FORTI DELLE PIÙ MODERNE TECNOLOGIE PER LA GESTIONE E LA DEFINIZIONE DEI PROCESSI.",
+            "text2": "Il tutto, offrendo <b>soluzioni su misura</b> e un <b>modello di eccellenza</b> operativa sviluppato e garantito negli anni in una vasta gamma di settori: <b>food, no food, farmaceutico, informatico, amministrativo e dei servizi in genere</b>. Il nostro obiettivo, quindi, è creare le condizioni migliori affinché il nostro cliente raggiunga le mete prefissate."
+        },
+        "stripe2":{
+            "title":"Partnership",
+            "text":"Al vostro fianco, fino a destinazione."
+        },
+        "stripe3":{
+            "title1": "La soluzione migliore.",
+            "title2": "Pensata per voi.",
+            "text1": "IN INTERNATIONAL LOGISTIC SERVICES S.P.A. CI IMPEGNIAMO AFFINCHÈ LA VISION AZIENDALE VENGA CONDIVISA A TUTTI I LIVELLI, DAL PIÙ OPERATIVO A QUELLO MANAGERIALE.",
+            "text2": "In questo modo è possibile sviluppare in maniera costante un progetto di miglioramento ed evoluzione che sia in grado di rispondere alle richieste di ogni nostro cliente, nel modo più corretto e tecnologicamente avanzato possibile.",
+            "text3": "A livello pratico, investiamo gran parte delle nostre risorse nello sviluppo continuo del nostro reparto IT, che rappresenta un elemento fondamentale della nostra strategia imprenditoriale."
+        }
+    },
+    "news":{
+        "title1":"GELMARKET E PICARD SI AFFIDANO A NOI.",
+        "text1": "International Logistic Services S.p.a. e Gelmarket hanno chiuso un accordo che, con decorrenza luglio 2018.  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; leggi tutto",
+        "img1": "../../assets/img/news/gelmarket-02-400x250.jpg",
+        "title2":"È ONLINE IL NOSTRO NUOVO SITO!",
+        "text2": "Informazioni, contatti, offerte, da oggi grazie al nuovo sito International Logistic Services S.p.a. basteranno pochi click. leggi tutto",
+        "img2": "../../assets/img/news/new-site-400x250.jpg",
+        "title3":"NUOVO WMS PER UNA GESTIONE PIÙ EFFICIENTE.",
+        "text3": "Per offrire un servizio ancora più efficiente e completo International Logistic Services S.p.a. ha sviluppato un nuovo software WMS. leggi tutto",
+        "img3": "../../assets/img/news/wms-01-400x250.jpg"
     }
 
 

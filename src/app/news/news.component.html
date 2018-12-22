@@ -1,7 +1,31 @@
 <app-navigation [sezione]="sezione"></app-navigation>
-<div class="container start">
-  <p>
-    news works!
-  </p>
+<div class="container2 header white">
+    <h1 class="bolder center">{{'pages.news'| translate }}</h1>
+</div>
+
+<div class="container">
+  <div class="centered">
+    <mat-card (click)="goto('news1')">
+        <img mat-card-image src="{{ 'news.img1' | translate }}" alt="{{ 'news.title1' | translate }}">
+        <mat-card-content>
+            <h5 class="uppercase"> {{ 'news.title1' | translate }} </h5>
+            <p [innerHTML]="'news.text1' | translate"></p>
+        </mat-card-content>
+    </mat-card>
+    <mat-card (click)="goto('news2')">
+        <img mat-card-image src="{{ 'news.img2' | translate }}" alt="{{ 'news.title2' | translate }}">
+        <mat-card-content>
+            <h5 class="uppercase"> {{ 'news.title2' | translate }} </h5>
+            <p [innerHTML]="'news.text2' | translate"></p>
+        </mat-card-content>
+    </mat-card>
+    <mat-card (click)="goto('news3')">
+        <img mat-card-image src="{{ 'news.img3' | translate }}" alt="{{ 'news.title3' | translate }}">
+        <mat-card-content>
+            <h5 class="uppercase"> {{ 'news.title3' | translate }} </h5>
+            <p [innerHTML]="'news.text3' | translate"></p>
+        </mat-card-content>
+    </mat-card>
+  </div>
 </div>
 <app-footer></app-footer>

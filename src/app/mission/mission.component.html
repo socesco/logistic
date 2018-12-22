@@ -1,7 +1,43 @@
 <app-navigation [sezione]="sezione"></app-navigation>
-<div class="container start">
-  <p>
-    mission works!
-  </p>
+<div class="container2 header white">
+    <h1 class="bolder center">{{'pages.mission'| translate }}</h1>
+</div>
+
+<div class="container2 type4">
+    <div class="centered grid-content-type4">
+        <div class="grid1">
+            <h3 class="orange uppercase bolder left">{{ 'mission.stripe1.title' | translate }}</h3>
+        </div>
+        <div class="grid2 padding-top">
+            <p class="bold" [innerHTML]="'mission.stripe1.text1' | translate"></p>
+            <p [innerHTML]="'mission.stripe1.text2' | translate"></p>
+        </div>
+    </div>
+</div>
+
+<div class="container2 type2">
+    <div class="centered grid-content-type2 partnership">
+        <div class="grid1">
+            <h1 class="white bolder">{{ 'mission.stripe2.title' | translate }}</h1>
+        </div>
+        <div class="grid2">
+            <h3 class="darkblue upercase bold">{{ 'mission.stripe2.text' | translate }}</h3>
+            <button mat-raised-button color="primary" class="uppercase"  routerLink="/contact">{{'pages.contact' | translate}}</button>
+        </div>
+    </div>
+</div>
+
+<div class="container2 type2">
+  <div class="centered grid-content-type2">
+      <div class="grid1 quote normalBG">
+          <h1 class="darkblue bolder">{{ 'mission.stripe3.title1' | translate }}</h1>
+          <h1 class="orange bolder">{{ 'mission.stripe3.title2' | translate }}</h1>
+      </div>
+      <div class="grid2">
+          <p class="bold" [innerHTML]="'mission.stripe3.text1' | translate"></p>
+          <p [innerHTML]="'mission.stripe3.text2' | translate"></p>
+          <p [innerHTML]="'mission.stripe3.text3' | translate"></p>
+      </div>
+  </div>
 </div>
 <app-footer></app-footer>

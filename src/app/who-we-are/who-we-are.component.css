@@ -19,12 +19,21 @@ button{
     min-height: 500px;
 }
 
+.container2.header{
+    background: url("../../assets/img/whoWeAre/chisiamo_banner.jpg") no-repeat top;
+    height: 400px;
+    padding-top: 100px;
+}
+
 .container2.type4 {
     margin: 0px;
     text-align: center;
     background-color: #f7f7f7;
 }
 
+.container2.type4 .grid-content-type4 {
+    min-height:300px;
+}
 
 /* Mobile */
 @media only screen and (max-width: 990px) {

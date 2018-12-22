@@ -1,0 +1,32 @@
+.container2.type4 .grid-content-type4 {
+    min-height:300px;
+}
+
+.container2.type4 .grid-content-type4 .grid2.padding-top{
+    padding-top:100px;   
+}
+.container2.type2 .grid-content-type2.partnership{
+    min-height: 350px;
+}
+.container2.type2 .grid-content-type2.partnership .grid1 h1{
+    text-align: center;
+}
+
+.container2.type2 .grid-content-type2.partnership .grid2 h3{
+    padding:100px 30px 30px 30px;
+    text-align: center;
+}
+.container2.type2 .grid-content-type2.partnership .grid1{
+    padding-top: 100px;
+    background: url("../../assets/img/missions/partnership.jpg") no-repeat center;
+}
+
+.container2.header{
+    background: url("../../assets/img/missions/mission_banner.jpg") no-repeat top;
+    height: 400px;
+    padding-top: 100px;
+}
+
+.container2.type2 .grid-content-type2 .grid2 p{
+    padding:20px 0px 0px 0px;
+}

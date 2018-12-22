@@ -1,5 +1,10 @@
 <app-navigation [sezione]="sezione"></app-navigation>
 
+<div class="container2 header white">
+    <h1 class="bolder center">{{'pages.who-we-are'| translate }}</h1>
+</div>
+
+
 <div class="container2 type2">
     <div class="centered grid-content-type2">
         <div class="grid1 quote manBG">
@@ -10,8 +15,8 @@
             <p class="upercase bold">{{ 'whoWeAre.banner2.text1' | translate }}</p>
             <p [innerHTML]=" 'whoWeAre.banner2.text2' | translate "></p>
             <p [innerHTML]=" 'whoWeAre.banner2.text3' | translate "></p>
-            <h3 class="orange bold">{{ 'whoWeAre.banner2.title3' | translate }}</h3>
-            <button mat-raised-button color="primary" class="uppercase" (click)="goto('contact')">{{'pages.contact' | translate}}</button>
+            <h3 class="orange bold center">{{ 'whoWeAre.banner2.title3' | translate }}</h3>
+            <button mat-raised-button color="primary" class="uppercase"  routerLink="/contact">{{'pages.contact' | translate}}</button>
         </div>
     </div>
 </div>
@@ -93,7 +98,7 @@
         <div class="grid1">
             <h3 class="orange uppercase bolder">{{ 'whoWeAre.certificate.title' | translate }}</h3>
         </div>
-        <div class="grid2 quote">
+        <div class="grid2">
             <p><img mat-card-image src="{{'whoWeAre.certificate.img' | translate }}" alt="{{'whoWeAre.certificate.title' | translate }}"></p>
             <p>{{ 'whoWeAre.certificate.text1' | translate }}</p>
             <p>{{ 'whoWeAre.certificate.text2' | translate }}</p>

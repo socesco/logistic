@@ -1,0 +1,17 @@
+.container2.header{
+    background: url("../../assets/img/news/news_banner.jpg") no-repeat top;
+    height: 400px;
+    padding-top: 100px;
+}
+
+mat-card{
+    width: 300px;
+    display: inline-block;
+    border:1px solid gray;
+    border-radius: 15px;
+}
+
+mat-card img{
+    width: 298px;
+    background-size: cover;
+}

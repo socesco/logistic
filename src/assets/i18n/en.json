@@ -163,6 +163,63 @@
             "text1": "International Logistic Services S.p.a. is one of the founding members of PMI Italia, a nationally active confederation that aims to unite companies that live in a unique social context and with homogeneous themes, fostering culture and business ethics, the deepening of the major issues affecting the enterprise itself, the economy and civil society.",
             "text2": "In addition to this, PMI Italia promotes continuous training by collaborating with university centers and structures."
         }
+    },
+    "ourSuccess":{
+        "stripe1":{
+            "title1": "Otteniamo grandi risultati.",
+            "title2": "Insieme a voi.",
+            "text1": "I vostri casi di successo sono i nostri casi migliori. Oltre a una metodologia “win win”, abbiamo sviluppato <b>sistemi e applicativi</b> in grado di semplificare, <b>migliorare e ottimizzare</b> sia le attività operative che quelle di controllo, <b>aumentandone così efficacia e risultati</b>.",
+            "img": ""
+        },
+        "stripe2":{
+            "title1": "1.Sistema di rilevazione presenze",
+            "text1": "Un applicativo totalmente “customizzabile”, interattivo e che permette di seguire da ogni dispositivo connesso (mobile e non) la situazione del personale presente in magazzino, gli spostamenti, l’inserimento dei giustificativi, la gestione dei DPI e tutto ciò che concerne il personale dipendente, con la possibilità infine dell’elaborazione delle buste paga.",
+            "img": "../../assets/img/ourSuccess/stripe2.jpg"
+        },
+        "stripe3":{
+            "title1": "2.Sistema di gestione delle attività",
+            "text1": "Una applicazione multi piattaforma, aperta a qualsiasi customizzazione, che permette di seguire e monitorare da qualsiasi dispositivo (mobile e non) performance e produttività divise per reparti, mansioni o qualsivoglia parametro.",
+            "img": "../../assets/img/ourSuccess/stripe3.jpg"
+        },
+        "stripe4":{
+            "title1": "3.Sistema di prenotazione scarichi",
+            "text1": "Applicazione anch’essa aperta a qualsiasi customizzazione che permette di regolamentare ed ottimizzare il flusso dei mezzi per l’attività di carico/scarico con la possibilità di produrre report ed interagire direttamente con il vettore.",
+            "img": "../../assets/img/ourSuccess/stripe4.jpg"
+        },
+        "stripe5":{
+            "title1": "4.Sviluppo lettore OCR",
+            "text1": "Abbiamo sviluppato un software che, da un documento cartaceo, estrae e converte in dati gli elementi selezionati relativi al corpo del ddt (mittente, destinatario, peso, volume, colli, etc.). Questo software è risultato fondamentale in tutte quelle piattaforme logistiche che hanno difficoltà, per limiti propri o dei propri clienti, a ricevere o spedire flussi digitalizzati consentendo, una volta applicato, un risparmio in ore lavoro del personale d’ufficio pari ad oltre il 30%.",
+            "img": "../../assets/img/ourSuccess/stripe5.jpg"
+        }
+    },
+    "mission":{
+        "stripe1":{
+            "title": "OUR OBJECTIVE IS TO REACH YOUR GOAL.",
+            "text1": "THE MISSION OF INTERNATIONAL LOGISTIC SERVICES S.P.A. IT IS THE ONE TO PROPOSE AS A PARTNER TRUSTED BY ITS CUSTOMERS, CARRYING OUT THE LOGISTIC ACTIVITY, ENSURING A HIGH PROFESSIONAL AND HIGH INNOVATIVE LEVEL, STRONG OF THE MOST MODERN TECHNOLOGIES FOR THE MANAGEMENT AND DEFINITION OF PROCESSES.",
+            "text2": "All this, offering <b> customized solutions </b> and a <b> model of excellence </b> operational developed and guaranteed over the years in a wide range of sectors: <b> food, no food, pharmaceutical, IT , administrative and services in general </b>. Our goal, therefore, is to create the best conditions for our client to reach the set goals."
+        },
+        "stripe2":{
+            "title":"Partnership",
+            "text":"By your side, to your destination."
+        },
+        "stripe3":{
+            "title1": "The best solution.",
+            "title2": "Designed for you.",
+            "text1": "IN INTERNATIONAL LOGISTIC SERVICES S.P.A. WE ARE COMMITTED FOR THE COMPANY VISION TO BE SHARED TO ALL LEVELS, FROM THE MOST OPERATIONAL TO THE MANAGERIAL.",
+            "text2": "In this way it is possible to constantly develop a project of improvement and evolution that is able to respond to the requests of each of our customers, in the most correct and technologically advanced way possible.",
+            "text3": "On a practical level, we invest a large part of our resources in the continuous development of our IT department, which is a key element of our business strategy."
+        }
+    },
+    "news":{
+        "title1":"GELMARKET AND PICARD RELY ON US.",
+        "text1": "International Logistic Services S.p.a. and Gelmarket have closed an agreement that, starting July 2018. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Read everything",
+        "img1": "../../assets/img/news/gelmarket-02-400x250.jpg",
+        "title2":"OUR NEW SITE IS ONLINE!",
+        "text2": "Information, contacts, offers, from today thanks to the new website International Logistic Services S.p.a. just a few clicks will be enough. Read everything",
+        "img2": "../../assets/img/news/new-site-400x250.jpg",
+        "title3":"NEW WMS FOR A MORE EFFICIENT MANAGEMENT.",
+        "text3": "To offer an even more efficient and complete service International Logistic Services S.p.a. has developed new WMS software. Read everything",
+        "img3": "../../assets/img/news/wms-01-400x250.jpg"
     }
     
 }
