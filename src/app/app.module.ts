@@ -62,7 +62,6 @@ const MaterialModules = [
       { path: 'who-we-are', component: WhoWeAreComponent },
       { path: 'mission', component: MissionComponent },
       { path: 'our-success', component: OurSuccessComponent },
-      { path: 'services/:type', component: ServicesComponent },
       { path: 'services', component: ServicesComponent },
       { path: 'contact', component: ContactComponent },
       { path: 'prenotation', component: PrenotationComponent },

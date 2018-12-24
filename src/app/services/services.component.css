@@ -1,3 +1,9 @@
+.container2.header{
+    background: url("../../assets/img/services/servizi_banner.jpg") no-repeat top;
+    height: 400px;
+    padding-top: 100px;
+}
+
 mat-card{
     margin: 10px;
     display: inline-block;
@@ -5,11 +11,174 @@ mat-card{
     -webkit-box-shadow: none!important;
 	-moz-box-shadow: none!important;
     box-shadow: none!important;
-    min-width: 300px;
+    width: 300px;
     cursor: pointer;
 }
 
 mat-card.example-card img{
     width: 100px;
     background-size: cover;
+}
+
+.padding-top{
+    padding-top:50px;
+}
+.container2.type2 .grid-content-type2{
+    margin: 40px auto;
+}
+
+.container2.type2 .grid-content-type2 .grid2 p, .container2.type2 .grid-content-type2 .grid1 p{
+    padding: 20px 0px 0px 0px;
+    text-align: justify;
+    font-size: 1em;
+    color: var( --black);
+    line-height: 1.4em;
+    font-weight: normal;
+}
+
+/* Mobile */
+@media only screen and (max-width: 990px) {
+    .padding100{
+        padding:100px 0px;
+    }
+    .container2.type2 .grid-content-type2{
+        min-height: 300px;
+    }
+    .container2.type2 .grid-content-type2 img{
+        max-width: 300px;
+    }
+    .container2.type2 .grid-content-type2 h2{
+        text-align: center;
+        font-size: 2em;
+    }
+    .container2.type2 .grid-content-type2 p, .container2.type2 .grid-content-type2 p ul li{
+        text-align: left;
+    }
+    
+    .container2.type2 .grid-content-type2.logistic .grid2, 
+    .container2.type2 .grid-content-type2.administration .grid2,
+    .container2.type2 .grid-content-type2.cleaning .grid2,
+    .container2.type2 .grid-content-type2.restaurant .grid2,
+    .container2.type2 .grid-content-type2.rent .grid2,
+    .container2.type2 .grid-content-type2.facilityManagement .grid2,
+    .container2.type2 .grid-content-type2.auxiliary .grid2,
+    .container2.type2 .grid-content-type2.informatic .grid2,
+    .container2.type2 .grid-content-type2.loadunload .grid2{
+        padding: 0px 30px 0px 30px;
+    }
+    .container2.type2 .grid-content-type2.logistic .grid1{
+        padding-top: 100px;
+        background-size: 300px 350px;
+        background: url("../../assets/img/services/logisticServices.jpg") no-repeat top;
+    }
+    .container2.type2 .grid-content-type2.administration .grid1{
+        padding-top: 100px;
+        background-size: 300px 350px;
+        background: url("../../assets/img/services/administrationServices.jpg") no-repeat top;
+    }
+    .container2.type2 .grid-content-type2.cleaning .grid1{
+        padding-top: 100px;
+        background-size: 300px 350px;
+        background: url("../../assets/img/services/cleaningServices.jpg") no-repeat top;
+    }
+    .container2.type2 .grid-content-type2.restaurant .grid1{
+        padding-top: 100px;
+        background-size: 300px 350px;
+        background: url("../../assets/img/services/restaurantServices.jpg") no-repeat top;
+    }
+    .container2.type2 .grid-content-type2.rent .grid1{
+        padding-top: 100px;
+        background-size: 300px 350px;
+        background: url("../../assets/img/services/rentServices.jpg") no-repeat top;
+    }
+    .container2.type2 .grid-content-type2.facilityManagement .grid1{
+        padding-top: 100px;
+        background-size: 300px 350px;
+        background: url("../../assets/img/services/facilityManagementServices.jpg") no-repeat top;
+    }
+    .container2.type2 .grid-content-type2.auxiliary .grid1{
+        padding-top: 100px;
+        background-size: 300px 350px;
+        background: url("../../assets/img/services/auxiliaryServices.jpg") no-repeat top;
+    }
+    .container2.type2 .grid-content-type2.informatic .grid1{
+        padding-top: 100px;
+        background-size: 300px 350px;
+        background: url("../../assets/img/services/informaticServices.jpg") no-repeat top;
+    }
+    .container2.type2 .grid-content-type2.loadunload .grid1{
+        padding-top: 100px;
+        background-size: 300px 350px;
+        background: url("../../assets/img/services/loadunloadServices.jpg") no-repeat top;
+    }
+}
+/* Desktop */
+@media only screen and (min-width: 990px) {
+    .padding100{
+        padding:100px 50px;
+    }
+    .container2.type2 .grid-content-type2 img{
+        max-width: 500px;
+    }
+    .container2.type2 .grid-content-type2 h2{
+        text-align: center;
+        font-size: 3em;
+    }
+    .container2.type2 .grid-content-type2.logistic .grid2, 
+    .container2.type2 .grid-content-type2.administration .grid1,
+    .container2.type2 .grid-content-type2.cleaning .grid2,
+    .container2.type2 .grid-content-type2.restaurant .grid1,
+    .container2.type2 .grid-content-type2.rent .grid2,
+    .container2.type2 .grid-content-type2.facilityManagement .grid1,
+    .container2.type2 .grid-content-type2.auxiliary .grid2,
+    .container2.type2 .grid-content-type2.informatic .grid1,
+    .container2.type2 .grid-content-type2.loadunload .grid2{
+        padding: 0px 30px 0px 30px;
+    }
+    .container2.type2 .grid-content-type2.logistic .grid1{
+        padding-top: 200px;
+        background-size: 300px 500px;
+        background: url("../../assets/img/services/logisticServices.jpg") no-repeat top;
+    }
+    .container2.type2 .grid-content-type2.administration .grid2{
+        padding-top: 200px;
+        background-size: 300px 500px;
+        background: url("../../assets/img/services/administrationServices.jpg") no-repeat top;
+    }
+    .container2.type2 .grid-content-type2.cleaning .grid1{
+        padding-top: 200px;
+        background-size: 300px 500px;
+        background: url("../../assets/img/services/cleaningServices.jpg") no-repeat top;
+    }
+    .container2.type2 .grid-content-type2.restaurant .grid2{
+        padding-top: 200px;
+        background-size: 300px 500px;
+        background: url("../../assets/img/services/restaurantServices.jpg") no-repeat top;
+    }
+    .container2.type2 .grid-content-type2.rent .grid1{
+        padding-top: 200px;
+        background-size: 300px 500px;
+        background: url("../../assets/img/services/rentServices.jpg") no-repeat top;
+    }
+    .container2.type2 .grid-content-type2.facilityManagement .grid2{
+        padding-top: 200px;
+        background-size: 300px 500px;
+        background: url("../../assets/img/services/facilityManagementServices.jpg") no-repeat top;
+    }
+    .container2.type2 .grid-content-type2.auxiliary .grid1{
+        padding-top: 200px;
+        background-size: 300px 500px;
+        background: url("../../assets/img/services/auxiliaryServices.jpg") no-repeat top;
+    }
+    .container2.type2 .grid-content-type2.informatic .grid2{
+        padding-top: 200px;
+        background-size: 300px 500px;
+        background: url("../../assets/img/services/informaticServices.jpg") no-repeat top;
+    }
+    .container2.type2 .grid-content-type2.loadunload .grid1{
+        padding-top: 200px;
+        background-size: 300px 500px;
+        background: url("../../assets/img/services/loadunloadServices.jpg") no-repeat top;
+    }
+    
 }

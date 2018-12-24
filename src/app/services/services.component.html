@@ -1,8 +1,11 @@
 <app-navigation [sezione]="sezione"></app-navigation>
+<div class="container2 header white">
+    <h1 class="bolder center">{{'pages.services'| translate }}</h1>
+</div>
 
 <div class="container start">
   <div class="centrato">
-    <h2 class="bolder">Le migliori soluzioni, al tuo fianco.</h2>
+    <h2 class="bolder darkblue">{{ 'services.title' | translate }}</h2>
     <mat-card class="example-card" (click)="goto('logistic')">
         <img mat-card-image src="{{ 'homepage.services.logistic.img' | translate }}" alt="{{ 'homepage.services.logistic.title' | translate }}">
         <mat-card-content>
@@ -59,6 +62,172 @@
     </mat-card>     
   </div>
 
-  Ogni Azienda ha degli obiettivi ben precisi da raggiungere e International Logistic Services S.p.a. lo sa bene. Ed è per questo motivo che il nostro metodo ci pone al vostro fianco per disegnare insieme la strada migliore per raggiungere il vostro obiettivo, grazie ai servizi che siamo in grado di offrirvi.
+  <p [innerHTML]="'services.text' | translate" class="padding-top"></p>
 </div>
+
+<a id="logistic" name="logistic"></a>
+<div class="container2 type2">
+    <div class="centered grid-content-type2 logistic">
+        <div class="grid1">
+            <h2 class="white bolder">{{ 'services.logistic.title' | translate }}</h2>
+        </div>
+        <div class="grid2">
+            <p [innerHTML]="'services.logistic.text1' | translate" class="bolder uppercase"></p>
+            <p [innerHTML]="'services.logistic.text2' | translate"></p>
+            <button mat-raised-button color="primary" class="uppercase" routerLink="/contact">{{'pages.contact' | translate}}</button>
+        </div>
+    </div>
+</div>
+<a id="administration" name="administration"></a>
+<div class="container2 type2">
+    <div *ngIf="!mobile()" class="centered grid-content-type2 administration">
+        <div class="grid1">
+            <p [innerHTML]="'services.administration.text1' | translate" class="bolder uppercase"></p>
+            <p [innerHTML]="'services.administration.text2' | translate"></p>
+            <button mat-raised-button color="primary" class="uppercase" routerLink="/contact">{{'pages.contact' | translate}}</button>
+        </div>
+        <div class="grid2">
+            <h2 class="white bolder">{{ 'services.administration.title' | translate }}</h2>
+        </div>
+    </div>
+    <div *ngIf="mobile()" class="centered grid-content-type2 administration">
+        <div class="grid1">
+            <h2 class="white bolder">{{ 'services.administration.title' | translate }}</h2>
+        </div>
+        <div class="grid2">
+            <p [innerHTML]="'services.administration.text1' | translate" class="bolder uppercase"></p>
+            <p [innerHTML]="'services.administration.text2' | translate"></p>
+            <button mat-raised-button color="primary" class="uppercase" routerLink="/contact">{{'pages.contact' | translate}}</button>
+        </div>
+    </div>
+</div>
+<a id="cleaning" name="cleaning"></a>
+<div class="container2 type2">
+    <div class="centered grid-content-type2 cleaning">
+        <div class="grid1">
+            <h2 class="white bolder">{{ 'services.cleaning.title' | translate }}</h2>
+        </div>
+        <div class="grid2">
+            <p [innerHTML]="'services.cleaning.text1' | translate" class="bolder uppercase"></p>
+            <p [innerHTML]="'services.cleaning.text2' | translate"></p>
+            <p [innerHTML]="'services.cleaning.text3' | translate"></p>
+            <button mat-raised-button color="primary" class="uppercase" routerLink="/contact">{{'pages.contact' | translate}}</button>
+        </div>
+    </div>
+</div>
+<a id="restaurant" name="restaurant"></a>
+<div class="container2 type2">
+    <div *ngIf="!mobile()" class="centered grid-content-type2 restaurant">
+        <div class="grid1">
+            <p [innerHTML]="'services.restaurant.text1' | translate" class="bolder uppercase"></p>
+            <p [innerHTML]="'services.restaurant.text2' | translate"></p>
+            <button mat-raised-button color="primary" class="uppercase" routerLink="/contact">{{'pages.contact' | translate}}</button>
+        </div>
+        <div class="grid2">
+            <h2 class="white bolder">{{ 'services.restaurant.title' | translate }}</h2>           
+        </div>
+    </div>
+    <div *ngIf="mobile()" class="centered grid-content-type2 restaurant">
+        <div class="grid1">
+            <h2 class="white bolder">{{ 'services.restaurant.title' | translate }}</h2>
+        </div>
+        <div class="grid2">
+            <p [innerHTML]="'services.restaurant.text1' | translate" class="bolder uppercase"></p>
+            <p [innerHTML]="'services.restaurant.text2' | translate"></p>
+            <button mat-raised-button color="primary" class="uppercase" routerLink="/contact">{{'pages.contact' | translate}}</button>
+            
+        </div>
+    </div>
+</div>
+<a id="rent" name="rent"></a>
+<div class="container2 type2">
+    <div class="centered grid-content-type2 rent">
+        <div class="grid1">
+            <h2 class="white bolder">{{ 'services.rent.title' | translate }}</h2>
+        </div>
+        <div class="grid2">
+            <p [innerHTML]="'services.rent.text1' | translate" class="bolder uppercase"></p>
+            <p [innerHTML]="'services.rent.text2' | translate"></p>
+            <button mat-raised-button color="primary" class="uppercase" routerLink="/contact">{{'pages.contact' | translate}}</button>
+        </div>
+    </div>
+</div>
+<a id="facilityManagement" name="facilityManagement"></a>
+<div class="container2 type2">
+    <div *ngIf="!mobile()" class="centered grid-content-type2 facilityManagement">
+        <div class="grid1">
+            <p [innerHTML]="'services.facilityManagement.text1' | translate" class="bolder uppercase"></p>
+            <p [innerHTML]="'services.facilityManagement.text2' | translate"></p>
+            <p [innerHTML]="'services.facilityManagement.text3' | translate"></p>
+            <button mat-raised-button color="primary" class="uppercase" routerLink="/contact">{{'pages.contact' | translate}}</button>
+        </div>
+        <div class="grid2">
+            <h2 class="white bolder">{{ 'services.facilityManagement.title' | translate }}</h2>
+        </div>
+    </div>
+    <div *ngIf="mobile()" class="centered grid-content-type2 facilityManagement">
+        <div class="grid1">
+            <h2 class="white bolder">{{ 'services.facilityManagement.title' | translate }}</h2>
+        </div>
+        <div class="grid2">
+            <p [innerHTML]="'services.facilityManagement.text1' | translate" class="bolder uppercase"></p>
+            <p [innerHTML]="'services.facilityManagement.text2' | translate"></p>
+            <p [innerHTML]="'services.facilityManagement.text3' | translate"></p>
+            <button mat-raised-button color="primary" class="uppercase" routerLink="/contact">{{'pages.contact' | translate}}</button>
+        </div>
+    </div>
+</div>
+<a id="auxiliary" name="auxiliary"></a>
+<div class="container2 type2">
+    <div class="centered grid-content-type2 auxiliary">
+        <div class="grid1">
+            <h2 class="white bolder">{{ 'services.auxiliary.title' | translate }}</h2>     
+        </div>
+        <div class="grid2">
+            <p [innerHTML]="'services.auxiliary.text1' | translate" class="bolder uppercase"></p>
+            <p [innerHTML]="'services.auxiliary.text2' | translate"></p>
+            <button mat-raised-button color="primary" class="uppercase" routerLink="/contact">{{'pages.contact' | translate}}</button>
+        </div>
+    </div>
+</div>
+
+<a id="informatic" name="informatic"></a>
+<div class="container2 type2">
+    <div *ngIf="!mobile()" class="centered grid-content-type2 informatic">
+        <div class="grid1">
+            <p [innerHTML]="'services.informatic.text1' | translate" class="bolder uppercase"></p>
+            <p [innerHTML]="'services.informatic.text2' | translate"></p>
+            <button mat-raised-button color="primary" class="uppercase" routerLink="/contact">{{'pages.contact' | translate}}</button>
+        </div>
+        <div class="grid2">
+            <h2 class="white bolder">{{ 'services.informatic.title' | translate }}</h2>
+        </div>
+    </div>
+    <div *ngIf="mobile()" class="centered grid-content-type2 informatic">
+        <div class="grid1">
+            <h2 class="white bolder">{{ 'services.informatic.title' | translate }}</h2>
+        </div>
+        <div class="grid2">
+            <p [innerHTML]="'services.informatic.text1' | translate" class="bolder uppercase"></p>
+            <p [innerHTML]="'services.informatic.text2' | translate"></p>
+            <button mat-raised-button color="primary" class="uppercase" routerLink="/contact">{{'pages.contact' | translate}}</button>
+        </div>
+    </div>
+</div>
+<a id="loadunload" name="loadunload"></a>
+<div class="container2 type2">
+    <div class="centered grid-content-type2 loadunload">
+        <div class="grid1">
+            <h2 class="white bolder">{{ 'services.loadunload.title' | translate }}</h2>
+        </div>
+        <div class="grid2">
+            <p [innerHTML]="'services.loadunload.text1' | translate" class="bolder uppercase"></p>
+            <p [innerHTML]="'services.loadunload.text2' | translate"></p>
+            <p [innerHTML]="'services.loadunload.text3' | translate"></p>
+            <p [innerHTML]="'services.loadunload.text4' | translate"></p>
+            <button mat-raised-button color="primary" class="uppercase" routerLink="/prenotation">{{ 'pages.prenotation' | translate}}</button>
+        </div>
+    </div>
+</div>
+
 <app-footer></app-footer>

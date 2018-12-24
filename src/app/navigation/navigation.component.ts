@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Router } from '@angular/router';
+import { Router, ActivatedRoute } from '@angular/router';
 import {TranslateService} from '@ngx-translate/core';
 
 @Component({
@@ -10,12 +10,15 @@ import {TranslateService} from '@ngx-translate/core';
 export class NavigationComponent implements OnInit {
 
   @Input() sezione: string;
-  constructor( private router: Router, private translate: TranslateService) { }
 
-  ngOnInit() {
-  }
+  constructor(private route: ActivatedRoute, private router: Router, private translate: TranslateService) { }
+
+  ngOnInit() {}
+
+  
   
   useLanguage(language: string) {
     this.translate.use(language);
   }
+  
 }

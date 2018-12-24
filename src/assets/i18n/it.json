@@ -165,6 +165,60 @@
         }
 
     },
+    "services":{
+        "title": "Le migliori soluzioni, al tuo fianco.",
+        "text": "Ogni Azienda ha degli <b>obiettivi ben precisi da raggiungere e International Logistic Services S.p.a. lo sa bene</b>. Ed è per questo motivo che il nostro metodo ci pone <b>al vostro fianco</b> per disegnare insieme la strada migliore <b>per raggiungere il vostro obiettivo</b>, grazie ai servizi che siamo in grado di offrirvi.",
+        "logistic": {
+            "title": "Logistica",
+            "text1": "INTERNATIONAL LOGISTIC SERVICES S.P.A. LAVORA AL VOSTRO FIANCO PER OFFRIRVI LA SOLUZIONE LOGISTICA DI MOVIMENTAZIONE INTERNA MIGLIORE E PIÙ ADATTA ALLE VOSTRE ESIGENZE, IN GRADO DI COPRIRE TUTTE LE FASI DEL PROCESSO E BASATA SU UNA SOLIDA E INNOVATIVA STRUTTURA TECNOLOGICA. IL TUTTO, CONTENENDO I COSTI E SVILUPPANDO EFFICIENZA.",
+            "text2": "<ul> <li>Servizi di logistica integrata e groupage</li> <li>Gestione integrata di piattaforme e CEDI</li> <li>Gestione deposito conto terzi Ricevimento/Stoccaggio/Picking</li> <li>Gestione depositi conto proprio</li> <li>Gestione e controllo scorte, formazione carichi e movimentazione merci</li> <li>Gestione dei servizi logistica in outsourcing</li> <li>Attività di pianificazione, progettazione e sviluppo delle procedure</li> <li>Consulenza logistica</li> <li>Progettazione sistemi logistici</li> <li>Mulettisti, facchinaggio e traslochi</li> <li>Reverse logistics</li> <li>Gestione magazzini</li> </ul>"
+        },
+        "facilityManagement": {
+            "title": "Gestione delle infrastrutture",
+            "text1": "È LA FUNZIONE AZIENDALE CHE CONTROLLA TUTTE LE ATTIVITÀ CHE NON RIGUARDANO ESPRESSAMENTE IL CORE-BUSINESS DI UN’AZIENDA: PRODUTTIVITÀ D’UFFICIO, FACILITY UTILITIES, SICUREZZA, TELECOMUNICAZIONI, SERVIZIO MENSA, MANUTENZIONI E ALTRO.",
+            "text2": "Nell’accezione oggi più comunemente utilizzata, per facility management si intende tutto ciò che riguarda la gestione di edifici e loro impianti (di condizionamento, elettrici, idraulici, d’illuminazione) e i servizi di pulizia, ristorazione, giardinaggio e altro.",
+            "text3": "Norme e definizione ufficiale europea: <b>EN I 5221</b>."
+            
+        },
+        "administration": {
+            "title": "Amministrazione",
+            "text1": "NELLA COMPLETEZZA DELLA PROPRIA OFFERTA, OLTRE AI SERVIZI DI LOGISTICA, INTERNATIONAL LOGISTIC SERVICES S.P.A. È IN GRADO DI OFFRIRE IL GIUSTO SUPPORTO ANCHE NELL’AMBITO AMMINISTRATIVO, GRAZIE A UN TEAM DI ESPERTI E A SOFTWARE DEDICATI.",
+            "text2": "<ul> <li>Consulenza e gestione</li> <li>Elaborazione dati</li> <li>Elaborazione paghe e contributi</li> <li>Analisi e studio per soluzioni organizzative</li> <li>Analisi produttività e definizione parametri amministrazione ILS</li> <li>Gestione archivi</li> <li>Segreteria e assistenza</li> <li>Front-office e centralino</li> </ul>"
+        },
+        "auxiliary": {
+            "title": "Servizi ausiliari",
+            "text1": "UN’ORGANIZZAZIONE EFFICIENTE, METICOLOSA E FLESSIBILE PER SOPPERIRE AD OGNI ESIGENZA DI COPACKING E CONFEZIONAMENTO:",
+            "text2": "<ul> <li>Manipolazioni generiche (Handling) operatore pistola</li> <li>Selezione/Confezionamento/Blisteraggio</li> <li>Etichettatura di merci e prodotti finiti in genere</li> <li>Servizi di confezionamento ed expo</li> <li>Bollinatura</li> <li>Trasformazione di confezioni</li> <li>Assemblaggio prodotti/cesti natalizi e in genere</li> </ul>"
+        },
+        "cleaning": {
+            "title": "Pulizia",
+            "text1": "METICOLOSO RISPETTO DEL MANDATO E PERSONALE DI ASSOLUTA AFFIDABILITÀ PER FORNIRE AL CLIENTE:",
+            "text2": "<ul> <li>Consulenza e gestione</li> <li>Elaborazione dati</li> <li>Elaborazione paghe e contributi</li> <li>Analisi e studio per soluzioni organizzative</li> <li>Analisi produttività e definizione parametri amministrazione ILS</li> <li>Gestione archivi</li> <li>Segreteria e assistenza</li> <li>Front-office e centralino</li> </ul>",
+            "text3": "<b>International Logistic Services S.p.a.</b> utilizza un parco mezzi proveniente da fornitori partner leader nel settore e prodotti specifici per ogni tipo di ambiente."
+        },
+        "informatic": {
+            "title": "Servizi IT",
+            "text1":"L’INNOVAZIONE È UNO DEI VALORI CHE DA SEMPRE DISTINGUE INTERNATIONAL LOGISTIC SERVICES S.P.A. ED È IL MOTIVO PER CUI UNO DEI NOSTRI OBIETTIVI È OFFRIRE SEMPRE STRUTTURE TECNOLOGICHE FUNZIONALI E ALL’AVANGUARDIA. OGNI ATTIVITÀ NECESSITA DI UN PROCESSO IT ADEGUATO E CREATO AD HOC PER FACILITARE, SEMPLIFICARE E OTTIMIZZARE L’IMPEGNO DI TUTTI.",
+            "text2": "<ul> <li>Manipolazioni generiche (Handling) operatore pistola</li> <li>Selezione/Confezionamento/Blisteraggio</li> <li>Etichettatura di merci e prodotti finiti in genere</li> <li>Servizi di confezionamento ed expo</li> <li>Bollinatura</li> <li>Trasformazione di confezioni</li> <li>Assemblaggio prodotti/cesti natalizi e in genere</li> </ul>"
+        },
+        "restaurant": {
+            "title": "Ristorazione",
+            "text1": "INTERNATIONAL LOGISTIC SERVICES S.P.A. DISPONE DI PERSONALE QUALIFICATO E DI COLLAUDATA ESPERIENZA IN GRADO DI FORNIRE I SEGUENTI SERVIZI PER OGNI ESIGENZA E IN OGNI LOCATION:",
+            "text2": "<ul> <li>Servizio in cucina</li> <li>Servizio ai tavoli</li> <li>Gestioni di bar, mense e self service</li> <li>Servizi di catering</li> </ul>"
+        },
+        "loadunload": {
+            "title": "Prenotazione Scarichi",
+            "text1":"OTTIMIZZA IL TUO IMPEGNO GRAZIE ALLA PRENOTAZIONE ONLINE DELLO SCARICO AUTOMEZZI.",
+            "text2": "Un servizio semplice, immediato, raggiungibile da qualsiasi device con una conessione di rete e gestibile in pochi click, che ti permetterà di prenotare l’orario dello scarico evitando così inutili attese e spreco di tempo.",
+            "text3":"Potrai migliorare la tua organizzazione, migliorando i tuoi risultati.",
+            "text4": "Scopri di più su questo servizio o prenota il tuo scarico automezzi direttamente online cliccando sul bottone qui sotto."
+        },
+        "rent": {
+            "title": "Noleggio",
+            "text1":"PER FORNIRE SOLUZIONI CHE ANCORA UNA VOLTA POSSANO AGEVOLARE L’OTTIMIZZAZIONE DI PROCESSI E COSTI, INTERNATIONAL LOGISTIC SERVICES S.P.A. È IN GRADO DI PROPORRE FORMULE VANTAGGIOSE E ALTERNATIVE ALL’ACQUISTO, MESSE A DISPOSIZIONE DEI PROPRI CLIENTI PER LA GESTIONE DEL PARCO MEZZI AZIENDALE.",
+            "text2": "<ul> <li>Locazione, a breve e lungo termine, di attrezzature ed impianti per uso industriale e civile</li> <li>Noleggio autovetture e veicoli in genere con e senza conducente</li> </ul>"
+        }
+    },
     "ourSuccess":{
         "stripe1":{
             "title1": "Otteniamo grandi risultati.",

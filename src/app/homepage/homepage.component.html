@@ -156,7 +156,7 @@
                     </li>
                 </ol>
 
-                <button mat-flat-button class="uppercase" (click)="goto('who-we-are')">{{'pages.who-we-are' | translate}}</button>
+                <button mat-flat-button class="uppercase" routerLink="/who-we-are">{{ 'pages.who-we-are' | translate}}</button>
         </div>
     </div>
 </div>
@@ -170,7 +170,7 @@
         <div class="grid2">
             <p class="upercase bold">{{ 'homepage.banner2.text1' | translate }}</p>
             <p [innerHTML]="'homepage.banner2.text2' | translate"></p>
-            <button mat-raised-button color="primary" class="uppercase" (click)="goto('contact')">{{'pages.contact' | translate}}</button>
+            <button mat-raised-button color="primary" class="uppercase" routerLink="/contact">{{'pages.contact' | translate}}</button>
         </div>
     </div>
 </div>
@@ -222,7 +222,7 @@
     <div class="centered">
         <h1 class="upercase">{{ 'homepage.banner3.title' | translate }}</h1>
         <p class="upercase">{{ 'homepage.banner3.text' | translate }}</p>
-        <button mat-flat-button class="uppercase" (click)="goto('prenotation')">{{'pages.prenotation' | translate}}</button>
+        <button mat-flat-button class="uppercase" routerLink="/prenotation">{{ 'pages.prenotation' | translate}}</button>
     </div>
 </div>
 
