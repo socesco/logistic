@@ -2,4 +2,69 @@
 <div class="container2 header white">
     <h1 class="bolder center">{{'pages.prenotation'| translate }}</h1>
 </div>
+<div class="container start">
+    <h1 class="bolder darkblue">{{ 'prenotation.title' | translate }}</h1>
+    <p class="bolder uppercase">{{ 'prenotation.subtitle' | translate }}</p>
+</div>
+
+<div class="container2 type2">
+    <div class="centered grid-content-type2">
+        <div class="grid1 prenotation">
+            
+        </div>
+        <div class="grid2">
+            <p [innerHTML]="'prenotation.text1' | translate" class="bolder uppercase"></p>
+            <p [innerHTML]="'prenotation.text2' | translate"></p>
+            <p [innerHTML]="'prenotation.text3' | translate"></p>
+            <p [innerHTML]="'prenotation.text4' | translate" class="bolder uppercase orange"></p>
+            <button mat-raised-button color="primary" class="uppercase" routerLink="/contact">{{'pages.contact' | translate}}</button>
+        </div>
+    </div>
+</div>
+
+<div class="container2 type3">
+    <div class="centered">
+            
+        <h1>{{ 'prenotation.stripe1.title' | translate }}</h1>
+        <p class="upercase orange">{{ 'prenotation.stripe1.subtitle' | translate }}</p>
+
+        <mat-card>
+            <h1 class="upercase orange">1</h1>
+            <mat-card-content>
+                <h5 class="bold uppercase white" [innerHTML]="'prenotation.stripe1.text1.1' | translate"></h5>
+                <p [innerHTML]="'prenotation.stripe1.text1.2' | translate"></p>
+            </mat-card-content>
+        </mat-card>
+        <mat-card>
+            <h1 class="upercase orange">2</h1>
+            <mat-card-content>
+                <h5 class="bold uppercase white" [innerHTML]="'prenotation.stripe1.text2.1' | translate"></h5>
+                <p [innerHTML]="'prenotation.stripe1.text2.2' | translate"></p>
+            </mat-card-content>
+        </mat-card>
+        <mat-card>
+            <h1 class="upercase orange">3</h1>
+            <mat-card-content>
+                <h5 class="bold uppercase white" [innerHTML]="'prenotation.stripe1.text3.1' | translate"></h5>
+                <p [innerHTML]="'prenotation.stripe1.text3.2' | translate"></p>
+            </mat-card-content>
+        </mat-card>
+    </div>
+</div>    
+
+<div class="container2 type2">
+    <div class="centered grid-content-type2 stripe2">
+        <div class="grid1">
+            <h1 [innerHTML]="'prenotation.stripe2.title1' | translate" class="bolder uppercase darkblue"></h1>
+            <p [innerHTML]="'prenotation.stripe2.text1' | translate"></p>
+            <button mat-raised-button color="primary" class="uppercase" routerLink="/contact">{{'pages.contact' | translate}}</button>
+        </div>
+        <div class="grid2">
+            <h1 [innerHTML]="'prenotation.stripe2.title2' | translate" class="bolder uppercase darkblue"></h1>
+            <p [innerHTML]="'prenotation.stripe2.text2' | translate"></p>
+            <button mat-raised-button color="primary" class="uppercase" routerLink="/contact">{{'pages.contact' | translate}}</button>
+        </div>
+    </div>
+</div>
+
 <app-footer></app-footer>

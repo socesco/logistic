@@ -1,12 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
-body{
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-    height: 100%;
-    width: 100%;
-}
-
 /* Colori */
 
 :root {
@@ -20,26 +12,35 @@ body{
     --purple: #a333c8;
     --white: #ffffff;
     --black: #000000;
-    --gray: #dddddd;
+    --grey: #dddddd;
+    --darkgrey: #666666;
 }
 
 .orange{
-    color: var( --orange);
+    color: var( --orange)!important;
 }
 .darkblue{
-    color: var( --darkblue);
+    color: var( --darkblue)!important;
+}
+.darkgrey{
+    color: var( --darkgrey)!important;
 }
 .white{
-    color: var( --white);
+    color: var( --white)!important;
 }
 .black{
-    color: var( --black);
+    color: var( --black)!important;
 }
 
 html, body { height: 100%; }
-body {
-    background-color: var(--main-bg-color); 
-    margin: 0; 
+body{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    color: var( --darkgrey);
+    background-color: var(--main-bg-color);
     font-family: 'Titillium Web',Helvetica,Arial,Lucida,sans-serif;
 }
 .clear{
@@ -225,7 +226,6 @@ section {
     }
     .grid2.quote p{
         font-size: 0.9em;
-        color: var( --black);
         line-height: 1em;
         padding: 30px;
     }
@@ -268,7 +268,6 @@ section {
     }
     .container2.type2 .grid-content-type2 .grid2 p{
         font-size: 1em;
-        color: var( --black);
         line-height: 1.4em;
         padding:50px 50px 0px 50px;
     }

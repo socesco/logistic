@@ -164,31 +164,85 @@
             "text2": "In addition to this, PMI Italia promotes continuous training by collaborating with university centers and structures."
         }
     },
+    "services":{
+        "title": "The best solutions, by your side.",
+        "text": "Each company has <b> precise objectives to achieve and International Logistic Services S.p.a. he knows well </b>. And it is for this reason that our method puts us <b> at your side </b> to draw together the best way <b> to reach your goal </b>, thanks to the services we are able to offer you.",
+        "logistic": {
+            "title": "Logistic",
+            "text1": "INTERNATIONAL LOGISTIC SERVICES S.P.A. WORK YOURSELF TO OFFER YOU THE SOLUTION FOR INTERNAL HANDLING LOGISTICS BETTER AND MORE SUITABLE TO YOUR NEEDS, ABLE TO COVER ALL THE PHASES OF THE PROCESS AND BASED ON A SOLID AND INNOVATIVE TECHNOLOGICAL STRUCTURE. THE EVERYTHING, CONTAINING THE COSTS AND DEVELOPING EFFICIENCY.",
+            "text2": "<ul> <li> Integrated logistics and groupage services </li> <li> Integrated platform management and CEDI </li> <li> Third party warehouse management Receiving / Storage / Picking </li> <li> Warehouse management own account </li> <li> Inventory management and control, cargo training and goods handling </li> <li> Logistics management in outsourcing </li> <li> Planning, planning and development of procedures </li> <li> Logistics consultancy </li> <li> Logistics systems design </li> <li> Muleteers, porterage and removals </li> <li> Reverse logistics </li> <li> Warehouse management </ li > </ul>"
+        },
+        "facilityManagement": {
+            "title": "Facility Management",
+            "text1": "IT IS THE COMPANY FUNCTION THAT CONTROLS ALL THE ACTIVITIES THAT DO NOT EXPRESSLY REGARD TO THE CORE-BUSINESS OF A COMPANY: OFFICE PRODUCTIVITY, FACILITY UTILITIES, SECURITY, TELECOMMUNICATIONS, CANTEEN SERVICE, MAINTENANCE AND OTHER.",
+            "text2": "In the most commonly used concept, for facility management we mean everything related to the management of buildings and their systems (conditioning, electrical, plumbing, lighting) and cleaning, catering, gardening and other services.",
+            "text3": "Rules and official European definition: <b>EN I 5221</b>."
+            
+        },
+        "administration": {
+            "title": "Administration",
+            "text1": "IN THE COMPLETENESS OF ITS OFFER, AS WELL AS LOGISTIC SERVICES, INTERNATIONAL LOGISTIC SERVICES S.P.A. IT IS ABLE TO OFFER THE RIGHT SUPPORT ALSO IN THE ADMINISTRATIVE, THANKS TO A TEAM OF EXPERTS AND DEDICATED SOFTWARE.",
+            "text2": "<ul> <li> Consulting and management </li> <li> Data processing </li> <li> Payroll processing and contributions </li> <li> Analysis and study for organizational solutions </li> <li> Analysis productivity and definition of ILS administration parameters </li> <li> Archive management </li> <li> Secretariat and assistance </li> <li> Front office and switchboard </li> </ul>"
+        },
+        "auxiliary": {
+            "title": "Auxiliary Services",
+            "text1": "AN EFFICIENT, METICULOUS AND FLEXIBLE ORGANIZATION TO SUPPORT EVERY NEED FOR COPACKING AND PACKAGING:",
+            "text2": "<ul> <li> General manipulations (Handling) gun operator </li> <li> Selection / Packaging / Blistering </li> <li> Labeling of goods and finished products in general </li> <li> Packaging services and expo </li> <li> Boiling </li> <li> Packaging transformation </li> <li> Assembling products / Christmas baskets and in general </li> </ul>"
+        },
+        "cleaning": {
+            "title": "Cleaning",
+            "text1": "SCRUPULOUS RESPECT OF THE MANDATE AND PERSONNEL OF ABSOLUTE RELIABILITY TO PROVIDE THE CUSTOMER:",
+            "text2": "<ul> <li> Consulting and management </li> <li> Data processing </li> <li> Payroll processing and contributions </li> <li> Analysis and study for organizational solutions </li> <li> Analysis productivity and definition of ILS administration parameters </li> <li> Archive management </li> <li> Secretariat and assistance </li> <li> Front office and switchboard </li> </ul>",
+            "text3": "<b> International Logistic Services S.p.a. </b> uses a fleet of vehicles from leading suppliers in the sector and specific products for each type of environment."
+        },
+        "informatic": {
+            "title": "Informatic Services",
+            "text1":"INNOVATION IS ONE OF THE VALUES THAT ALWAYS DISTINGUE INTERNATIONAL LOGISTIC SERVICES S.P.A. AND THE REASON FOR WHICH ONE OF OUR OBJECTIVES IS ALWAYS PROVIDING FUNCTIONAL AND AVANT-GARDE TECHNOLOGICAL STRUCTURES. EVERY ACTIVITY NEEDS AN ADJUSTED IT PROCESS AND CREATED AD HOC TO FACILITATE, SIMPLIFY AND OPTIMIZE THE COMMITMENT OF ALL.",
+            "text2": "<ul> <li> General manipulations (Handling) gun operator </li> <li> Selection / Packaging / Blistering </li> <li> Labeling of goods and finished products in general </li> <li> Packaging services and expo </li> <li> Boiling </li> <li> Packaging transformation </li> <li> Assembling products / Christmas baskets and in general </li> </ul>"
+        },
+        "restaurant": {
+            "title": "Restaurant",
+            "text1": "INTERNATIONAL LOGISTIC SERVICES S.P.A. HAS QUALIFIED PERSONNEL AND TESTED EXPERIENCE ABLE TO PROVIDE THE FOLLOWING SERVICES FOR EVERY NEED AND EVERY LOCATION:",
+            "text2": "<ul> <li> Service in the kitchen </li> <li> Table service </li> <li> Bar, cafeteria and self service management </li> <li> Catering services </li> </ul>"
+        },
+        "loadunload": {
+            "title": "Book load unload goods",
+            "text1": "OPTIMIZE YOUR COMMITMENT THANKS TO THE ONLINE RESERVATION OF THE VEHICLE DISCHARGE.",
+            "text2": "A simple, immediate service, reachable from any device with a network connection and manageable in a few clicks, which will allow you to book the unloading time thus avoiding unnecessary waiting and waste of time.",
+            "text3": "You can improve your organization by improving your results.",
+            "text4": "Find out more about this service or book your vehicle unloading directly online by clicking on the button below."
+        },
+        "rent": {
+            "title": "Rent",
+            "text1":"TO PROVIDE SOLUTIONS THAT STILL ONCE CAN FACILITATE THE OPTIMIZATION OF PROCESSES AND COSTS, INTERNATIONAL LOGISTIC SERVICES S.P.A. IT IS ABLE TO PROPOSE ADVANTAGES AND ALTERNATIVES FOR PURCHASING, MADE AT THE DISPOSITION OF ITS CUSTOMERS FOR THE MANAGEMENT OF THE BUSINESS VEHICLE.",
+            "text2": "<ul> <li> Leasing, in the short and long term, of equipment and systems for industrial and civil use </li> <li> Rental of cars and vehicles in general with and without driver </li> </ul>"
+        }
+    },
     "ourSuccess":{
         "stripe1":{
-            "title1": "Otteniamo grandi risultati.",
-            "title2": "Insieme a voi.",
-            "text1": "I vostri casi di successo sono i nostri casi migliori. Oltre a una metodologia “win win”, abbiamo sviluppato <b>sistemi e applicativi</b> in grado di semplificare, <b>migliorare e ottimizzare</b> sia le attività operative che quelle di controllo, <b>aumentandone così efficacia e risultati</b>.",
+            "title1": "We get great results.",
+            "title2": "Together with you.",
+            "text": "Your success stories are our best cases. In addition to a win win methodology, we have developed <b> systems and applications </b> that can simplify, <b> improve and optimize </b> both operational and control activities, <b> thus increasing effectiveness and results </b>.",
             "img": ""
         },
         "stripe2":{
-            "title1": "1.Sistema di rilevazione presenze",
-            "text1": "Un applicativo totalmente “customizzabile”, interattivo e che permette di seguire da ogni dispositivo connesso (mobile e non) la situazione del personale presente in magazzino, gli spostamenti, l’inserimento dei giustificativi, la gestione dei DPI e tutto ciò che concerne il personale dipendente, con la possibilità infine dell’elaborazione delle buste paga.",
+            "title": "1. Presence detection system",
+            "text": "An application that is totally customizable, interactive and that allows you to follow from every connected device (mobile or not) the situation of the personnel present in the warehouse, the movements, the insertion of the documents, the management of the PPE and everything concerning the staff employee, with the possibility finally of the processing of payroll.",
             "img": "../../assets/img/ourSuccess/stripe2.jpg"
         },
         "stripe3":{
-            "title1": "2.Sistema di gestione delle attività",
-            "text1": "Una applicazione multi piattaforma, aperta a qualsiasi customizzazione, che permette di seguire e monitorare da qualsiasi dispositivo (mobile e non) performance e produttività divise per reparti, mansioni o qualsivoglia parametro.",
+            "title": "2. Activity management system",
+            "text": "A multi-platform application, open to any customization, that allows you to monitor and monitor from any device (mobile or otherwise) performance and productivity divided by departments, tasks or any parameter.",
             "img": "../../assets/img/ourSuccess/stripe3.jpg"
         },
         "stripe4":{
-            "title1": "3.Sistema di prenotazione scarichi",
-            "text1": "Applicazione anch’essa aperta a qualsiasi customizzazione che permette di regolamentare ed ottimizzare il flusso dei mezzi per l’attività di carico/scarico con la possibilità di produrre report ed interagire direttamente con il vettore.",
+            "title": "3. Download booking system",
+            "text": "Also open to any customization application that allows to regulate and optimize the flow of vehicles for loading / unloading activities with the ability to produce reports and interact directly with the carrier.",
             "img": "../../assets/img/ourSuccess/stripe4.jpg"
         },
         "stripe5":{
-            "title1": "4.Sviluppo lettore OCR",
-            "text1": "Abbiamo sviluppato un software che, da un documento cartaceo, estrae e converte in dati gli elementi selezionati relativi al corpo del ddt (mittente, destinatario, peso, volume, colli, etc.). Questo software è risultato fondamentale in tutte quelle piattaforme logistiche che hanno difficoltà, per limiti propri o dei propri clienti, a ricevere o spedire flussi digitalizzati consentendo, una volta applicato, un risparmio in ore lavoro del personale d’ufficio pari ad oltre il 30%.",
+            "title": "4. OCR reader development",
+            "text": "We have developed software that, from a paper document, extracts and converts the selected elements related to the body of the ddt (sender, recipient, weight, volume, packages, etc.) into data. This software has proved essential in all those logistics platforms that have difficulty, for their own or their customers' limits, to receive or send digitized flows allowing, once applied, a saving in working hours of office staff equal to over 30% .",
             "img": "../../assets/img/ourSuccess/stripe5.jpg"
         }
     },
@@ -220,6 +274,31 @@
         "title3":"NEW WMS FOR A MORE EFFICIENT MANAGEMENT.",
         "text3": "To offer an even more efficient and complete service International Logistic Services S.p.a. has developed new WMS software. Read everything",
         "img3": "../../assets/img/news/wms-01-400x250.jpg"
+    },
+    "prenotation":{
+        "title": "Manage the vehicle unloading at best?",
+        "subtitle":"WE HAVE THE RIGHT INSTRUMENT FOR YOUR NEEDS.",
+        "text1":"THANKS TO THIS SYSTEM IT IS POSSIBLE TO TOTALLY RESERVE INDEPENDENT THE WASTE DISCHARGE, CANCELING ON ONE SIDE THE WAITING TIMES AND ALLOWING AT THE SAME TIME TO THE RECIPIENT TO HAVE A CLEAR AND IMMEDIATE VISION OF THE DAILY WORKING VOLUME.",
+        "text2":"When booking, you can enter information such as the <b> number of pallets </b>, the <b> order number </b>, <b> the estimated time of arrival </b> and then automatically determine a <b> estimate of the discharge time </b>. In this way the carrier is able to <b> manage its organization in an optimal way </b>, even in case of further discharges to be made. The system is simple, versatile, safe and <b> completely customizable </b> according to customer needs:",
+        "text3":"<ul> <li> It is possible to display the free exhaust slots extended over time. </li><li> It is possible to insert any useful message to the destination magazine. </li><li> It is possible to insert any type of useful information to the recipient (telephone, address, mail, etc.). </li><li> You can easily consult it from any device with a network connection. </li><li> All information can be exported to your management system through the web service. </li></ul>",
+        "text4": "BOOK YOUR DISCHARGE!",
+        "stripe1":{
+            "title":"Helpful. Comfortable. Simple.",
+            "subtitle": "THE BEST SERVICE TO OPTIMIZE YOUR WORK.",
+            "text1.1": "VEHICLE DISCHARGE PLANNING",
+            "text1.2": "Immediate and achievable in a few simple steps.",
+            "text2.1": "DELETING WAITING TIMES",
+            "text2.2": "With consequent organizational optimization.",
+            "text3.1": "REAL-TIME CONSULTATION",
+            "text3.2": "To book, view and always have everything under control."
+        },
+        "stripe2":{
+            "title1":"Do you want more information?",
+            "text1":"Do you want to find the best solution for your business or do you want to discover all the services we can offer you?",
+            "title2":"Do you want to book your vehicle unloading?",
+            "text2":"Proceed immediately with your reservation by accessing the reserved area, just a few clicks!"
+        }
+
     }
     
 }

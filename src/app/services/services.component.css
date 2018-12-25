@@ -31,7 +31,6 @@ mat-card.example-card img{
     padding: 20px 0px 0px 0px;
     text-align: justify;
     font-size: 1em;
-    color: var( --black);
     line-height: 1.4em;
     font-weight: normal;
 }

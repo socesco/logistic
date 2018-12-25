@@ -3,19 +3,16 @@
     height: 400px;
     padding-top: 100px;
 }
-
+.container2.type2 .grid-content-type2{
+    min-height: 350px;
+}
 .container2.type2 .grid-content-type2 .grid2 p, .container2.type2 .grid-content-type2 .grid1 p{
     padding: 20px 0px 0px 0px;
     text-align: justify;
     font-size: 1em;
-    color: var( --black);
     line-height: 1.4em;
     font-weight: normal;
 }
-
-
-
-
 
 /* Mobile */
 @media only screen and (max-width: 990px) {

@@ -3,3 +3,49 @@
     height: 400px;
     padding-top: 100px;
 }
+.container2.type2{
+    margin-bottom:40px;
+}
+
+.container2.type3{
+    background: url("../../assets/img/prenotation/prenotazione_imm.jpg") no-repeat top;
+    background-size: cover;
+    width:100%;
+    min-height: 500px;
+}
+
+mat-card{
+    width: 300px;
+    display: inline-block;
+    background: none;
+}
+mat-card mat-card-content p{
+    font-weight: normal;
+}
+.container2.type2 .grid-content-type2.stripe2 .grid1 p, .container2.type2 .grid-content-type2.stripe2 .grid2 p {
+    font-size: 1em;
+    line-height: 1.4em;
+    text-align: left;
+    font-weight: bolder;
+    padding: 50px 0px;
+}
+.container2.type2 .grid-content-type2.stripe2 .grid1 h1, .container2.type2 .grid-content-type2.stripe2 .grid2 h1  {
+    text-align: left;
+}
+
+/* Mobile */
+@media only screen and (max-width: 990px) {
+    .container2.type2 .grid-content-type2 .grid1.prenotation {
+        padding-top: 100px;
+        background-size: 300px 350px;
+        background: url("../../assets/img/prenotation/prenotazione_mockup.jpg") no-repeat top;
+    }
+}
+/* Desktop */
+@media only screen and (min-width: 990px) {
+    .container2.type2 .grid-content-type2 .grid1.prenotation {
+        padding-top: 200px;
+        background-size: 300px 500px;
+        background: url("../../assets/img/prenotation/prenotazione_mockup.jpg") no-repeat top;
+    }
+}

@@ -39,15 +39,15 @@
             <h5 class="text-uppercase">{{ 'pages.services'| translate | uppercase }}</h5>
             <hr>
             <ul class="list-unstyled">
-              <li><a routerLink="/services/logistic">{{ 'pages.logisticServices' | translate }}</a></li>
-              <li><a routerLink="/services/administration">{{ 'pages.administrationServices' | translate }}</a></li>
-              <li><a routerLink="/services/cleaning">{{ 'pages.cleaningServices' | translate }}</a></li>
-              <li><a routerLink="/services/facilityManagement">{{ 'pages.facilityManagementServices' | translate }}</a></li>
-              <li><a routerLink="/services/informaticsService">{{ 'pages.informaticsServices' | translate }}</a></li>
-              <li><a routerLink="/services/otherService">{{ 'pages.otherServices' | translate }}</a></li>
-              <li><a routerLink="/services/restaurants">{{ 'pages.restaurantsServices' | translate }}</a></li>
-              <li><a routerLink="/services/rent">{{ 'pages.rentServices' | translate }}</a></li>
-              <li><a routerLink="/services/bookingLoadingUnloading">{{ 'pages.bookingLoadingUnloadingServices' | translate }}</a></li>
+              <li><a class="pointer" (click)="goto('logistic')">{{ 'pages.logisticServices' | translate }}</a></li>
+              <li><a class="pointer" (click)="goto('administration')">{{ 'pages.administrationServices' | translate }}</a></li>
+              <li><a class="pointer" (click)="goto('cleaning')">{{ 'pages.cleaningServices' | translate }}</a></li>
+              <li><a class="pointer" (click)="goto('facilityManagement')">{{ 'pages.facilityManagementServices' | translate }}</a></li>
+              <li><a class="pointer" (click)="goto('informatic')">{{ 'pages.informaticsServices' | translate }}</a></li>
+              <li><a class="pointer" (click)="goto('auxiliary')">{{ 'pages.otherServices' | translate }}</a></li>
+              <li><a class="pointer" (click)="goto('restaurants')">{{ 'pages.restaurantsServices' | translate }}</a></li>
+              <li><a class="pointer" (click)="goto('rent')">{{ 'pages.rentServices' | translate }}</a></li>
+              <li><a class="pointer" (click)="goto('loadunload')">{{ 'pages.bookingLoadingUnloadingServices' | translate }}</a></li>
             </ul>
 
           </div>
