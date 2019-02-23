@@ -1,0 +1,39 @@
+Installare nodejs 
+https://nodejs.org/dist/v10.14.2/node-v10.14.2-x64.msi
+
+Installare git
+https://git-scm.com/download/win
+
+apri CMD in modalita amministratore
+vai nella cartella dove vuoi mettere il sito
+
+installa angular cli lanciando questo comando
+npm install -g @angular/cli
+
+lancia questo comando per clonare il sito che ho fatto sul tuo locale
+git clone https://github.com/socesco/logistic.git
+
+vai nella cartella logistic e lancia questo comando per installare i vari plugin
+npm i
+
+npm install @ngx-translate/core --save -g
+npm install @ngx-translate/http-loader --save -g
+npm i angular-bootstrap-md --save -g
+npm install -–save -g chart.js@2.5.0 font-awesome hammerjs
+
+una volta finito il processo (installato il tutto)
+
+digita il comando per far partire il server in locale
+ng serve 
+
+apri il browser allindirizzo localhost:4200
+
+se vuoi scaricarti le ultime modifiche vai sempre nella cartela logistic da CMD e digita
+git pull
+
+
+una volta installato fai sempre un 
+git pull
+ng serve
+e apri il browser al
+localhost:4200
